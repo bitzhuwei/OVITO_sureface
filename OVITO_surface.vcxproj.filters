@@ -1,0 +1,2749 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="examples\plugins\random_color\RandomColorModifier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\botan\botan\botan.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\muparser\muParser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\muparser\muParserBase.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\muparser\muParserBytecode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\muparser\muParserCallback.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\muparser\muParserDLL.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\muparser\muParserError.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\muparser\muParserInt.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\muparser\muParserTest.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\muparser\muParserTokenReader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\qcustomplot\qcustomplot.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\qssh\sftpchannel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\qssh\sftpdefs.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\qssh\sftpfilesystemmodel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\qssh\sftpincomingpacket.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\qssh\sftpoperation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\qssh\sftpoutgoingpacket.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\qssh\sftppacket.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\qssh\sshcapabilities.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\qssh\sshchannel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\qssh\sshchannelmanager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\qssh\sshconnection.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\qssh\sshconnectionmanager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\qssh\sshcryptofacility.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\qssh\sshincomingpacket.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\qssh\sshkeyexchange.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\qssh\sshkeygenerator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\qssh\sshkeypasswordretriever.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\qssh\sshoutgoingpacket.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\qssh\sshpacket.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\qssh\sshpacketparser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\qssh\sshremoteprocess.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\qssh\sshremoteprocessrunner.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\qssh\sshsendfacility.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\tachyon\tachyon\api.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\tachyon\tachyon\apigeom.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\tachyon\tachyon\apitrigeom.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\tachyon\tachyon\box.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\tachyon\tachyon\camera.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\tachyon\tachyon\cone.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\tachyon\tachyon\coordsys.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\tachyon\tachyon\cylinder.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\tachyon\tachyon\extvol.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\tachyon\tachyon\global.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\tachyon\tachyon\grid.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\tachyon\tachyon\hash.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\tachyon\tachyon\imageio.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\tachyon\tachyon\imap.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\tachyon\tachyon\intersect.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\tachyon\tachyon\jpeg.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\tachyon\tachyon\light.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\tachyon\tachyon\parallel.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\tachyon\tachyon\parvol.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\tachyon\tachyon\plane.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\tachyon\tachyon\pngfile.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\tachyon\tachyon\ppm.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\tachyon\tachyon\psd.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\tachyon\tachyon\quadric.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\tachyon\tachyon\render.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\tachyon\tachyon\ring.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\tachyon\tachyon\sgirgb.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\tachyon\tachyon\shade.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\tachyon\tachyon\sphere.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\tachyon\tachyon\texture.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\tachyon\tachyon\tgafile.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\tachyon\tachyon\threads.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\tachyon\tachyon\trace.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\tachyon\tachyon\triangle.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\tachyon\tachyon\ui.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\tachyon\tachyon\util.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\tachyon\tachyon\vector.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\tachyon\tachyon\vol.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\tachyon\tachyon\winbmp.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\voro++\examples\basic\import.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\voro++\examples\basic\platonic.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\voro++\examples\basic\random_points.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\voro++\examples\basic\single_cell.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\voro++\examples\custom\cell_statistics.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\voro++\examples\custom\custom_output.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\voro++\examples\custom\radical.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\voro++\examples\degenerate\degenerate.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\voro++\examples\degenerate\degenerate2.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\voro++\examples\extra\box_cut.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\voro++\examples\extra\cut_region.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\voro++\examples\extra\irregular.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\voro++\examples\extra\superellipsoid.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\voro++\examples\interface\find_voro_cell.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\voro++\examples\interface\loops.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\voro++\examples\interface\odd_even.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\voro++\examples\interface\polygons.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\voro++\examples\timing\timing_test.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\voro++\examples\walls\cylinder.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\voro++\examples\walls\frustum.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\voro++\examples\walls\tetrahedron.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\voro++\examples\walls\torus.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\voro++\src\c_loops.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\voro++\src\cell.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\voro++\src\cmd_line.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\voro++\src\common.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\voro++\src\container.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\voro++\src\container_prd.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\voro++\src\pre_container.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\voro++\src\unitcell.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\voro++\src\v_base.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\voro++\src\v_base_wl.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\voro++\src\v_compute.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\voro++\src\voro++.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\3rdparty\voro++\src\wall.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\animation\controller\AnimationKeys.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\animation\controller\ConstantControllers.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\animation\controller\Controller.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\animation\controller\KeyframeController.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\animation\controller\LinearInterpolationControllers.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\animation\controller\LookAtController.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\animation\controller\PRSTransformationController.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\animation\controller\SplineInterpolationControllers.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\animation\AnimationSettings.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\dataset\importexport\FileImporter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\dataset\importexport\FileSource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\dataset\importexport\FileSourceEditor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\dataset\importexport\FileSourceImporter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\dataset\DataSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\dataset\DataSetContainer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\dataset\UndoStack.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\actions\ActionManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\actions\AnimationActions.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\actions\FileActions.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\actions\RenderActions.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\actions\ViewportActions.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\actions\ViewportModeAction.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\app\Application.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\dialogs\AdjustCameraDialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\dialogs\AnimationSettingsDialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\dialogs\ApplicationSettingsDialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\dialogs\GeneralSettingsPage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\dialogs\HistoryFileDialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\dialogs\ImportFileDialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\dialogs\ImportRemoteFileDialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\dialogs\LoadImageFileDialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\dialogs\RemoteAuthenticationDialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\dialogs\SaveImageFileDialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\dialogs\ViewportSettingsPage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\mainwin\cmdpanel\CommandPanel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\mainwin\cmdpanel\ModificationListItem.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\mainwin\cmdpanel\ModificationListModel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\mainwin\cmdpanel\ModifierListBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\mainwin\cmdpanel\ModifyCommandPage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\mainwin\cmdpanel\OverlayCommandPage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\mainwin\cmdpanel\RenderCommandPage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\mainwin\cmdpanel\UtilityCommandPage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\mainwin\MainWindow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\mainwin\ViewportsPanel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\properties\AffineTransformationParameterUI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\properties\BooleanActionParameterUI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\properties\BooleanGroupBoxParameterUI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\properties\BooleanParameterUI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\properties\BooleanRadioButtonParameterUI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\properties\ColorParameterUI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\properties\CustomParameterUI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\properties\FilenameParameterUI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\properties\FloatParameterUI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\properties\FontParameterUI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\properties\IntegerParameterUI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\properties\IntegerRadioButtonParameterUI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\properties\NumericalParameterUI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\properties\ParameterUI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\properties\PropertiesEditor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\properties\PropertiesPanel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\properties\RefTargetListParameterUI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\properties\StringParameterUI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\properties\SubObjectParameterUI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\properties\VariantComboBoxParameterUI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\properties\Vector3ParameterUI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\widgets\animation\AnimationFramesToolButton.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\widgets\animation\AnimationTimeSlider.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\widgets\animation\AnimationTimeSpinner.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\widgets\animation\AnimationTrackBar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\widgets\display\CoordinateDisplayWidget.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\widgets\display\StatusWidget.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\widgets\general\AutocompleteLineEdit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\widgets\general\ColorPickerWidget.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\widgets\general\ElidedTextLabel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\widgets\general\RolloutContainer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\widgets\general\SpinnerWidget.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\widgets\rendering\FrameBufferWidget.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\widgets\rendering\FrameBufferWindow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\widgets\selection\SceneNodeSelectionBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\gui\widgets\selection\SceneNodesListModel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\object\NativeOvitoObjectType.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\object\OvitoObject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\object\OvitoObjectType.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\plugins\autostart\AutoStartObject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\plugins\utility\UtilityApplet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\plugins\NativePlugin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\plugins\Plugin.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\plugins\PluginManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\reference\CloneHelper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\reference\PropertyField.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\reference\PropertyFieldDescriptor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\reference\RefMaker.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\reference\RefTarget.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\reference\RefTargetListener.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\rendering\noninteractive\DefaultArrowPrimitive.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\rendering\noninteractive\DefaultImagePrimitive.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\rendering\noninteractive\DefaultLinePrimitive.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\rendering\noninteractive\DefaultMeshPrimitive.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\rendering\noninteractive\DefaultParticlePrimitive.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\rendering\noninteractive\DefaultTextPrimitive.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\rendering\noninteractive\NonInteractiveSceneRenderer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\rendering\standard\StandardSceneRenderer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\rendering\standard\StandardSceneRendererEditor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\rendering\viewport\OpenGLArrowPrimitive.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\rendering\viewport\OpenGLImagePrimitive.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\rendering\viewport\OpenGLLinePrimitive.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\rendering\viewport\OpenGLMeshPrimitive.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\rendering\viewport\OpenGLParticlePrimitive.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\rendering\viewport\OpenGLSharedResource.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\rendering\viewport\OpenGLTextPrimitive.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\rendering\viewport\ViewportSceneRenderer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\rendering\FrameBuffer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\rendering\RenderSettings.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\rendering\RenderSettingsEditor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\rendering\SceneRenderer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\scene\objects\camera\CameraObject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\scene\objects\geometry\TriMeshDisplay.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\scene\objects\geometry\TriMeshObject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\scene\objects\helpers\TargetObject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\scene\objects\CompoundObject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\scene\objects\DataObject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\scene\objects\DisplayObject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\scene\pipeline\Modifier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\scene\pipeline\ModifierApplication.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\scene\pipeline\PipelineFlowState.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\scene\pipeline\PipelineObject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\scene\ObjectNode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\scene\SceneNode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\scene\SceneRoot.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\scene\SelectionSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\utilities\concurrent\Future.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\utilities\concurrent\TaskManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\utilities\io\gzdevice\qtiocompressor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\utilities\io\video\VideoEncoder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\utilities\io\CompressedTextReader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\utilities\io\CompressedTextWriter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\utilities\io\FileManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\utilities\io\LoadStream.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\utilities\io\ObjectLoadStream.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\utilities\io\ObjectSaveStream.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\utilities\io\SaveStream.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\utilities\io\SftpJob.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\utilities\linalg\AffineDecomposition.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\utilities\mesh\HalfEdgeMesh.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\utilities\mesh\TriMesh.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\utilities\units\UnitsManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\utilities\Exception.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\viewport\input\NavigationModes.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\viewport\input\ViewportInputManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\viewport\input\ViewportInputMode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\viewport\input\XFormModes.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\viewport\overlay\CoordinateTripodOverlay.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\viewport\overlay\ViewportOverlay.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\viewport\picking\PickingSceneRenderer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\viewport\Viewport.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\viewport\ViewportConfiguration.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\viewport\ViewportMenu.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\viewport\ViewportSettings.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\viewport\ViewportWindow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\core\Core.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main\Main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\crystalanalysis\data\clusters\Cluster.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\crystalanalysis\data\clusters\ClusterGraph.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\crystalanalysis\data\dislocations\DislocationDisplay.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\crystalanalysis\data\dislocations\DislocationInspector.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\crystalanalysis\data\dislocations\DislocationNetwork.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\crystalanalysis\data\dislocations\DislocationSegment.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\crystalanalysis\data\patterns\BurgersVectorFamily.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\crystalanalysis\data\patterns\PatternCatalog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\crystalanalysis\data\patterns\StructurePattern.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\crystalanalysis\importer\CAImporter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\crystalanalysis\modifier\ConstructSurfaceModifier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\crystalanalysis\modifier\ShiftModifier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\crystalanalysis\modifier\SmoothDislocationsModifier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\crystalanalysis\modifier\SmoothSurfaceModifier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\crystalanalysis\scripting\PythonInterface.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\crystalanalysis\util\DelaunayTessellation.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\mesh\import\TriMeshLoader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\mesh\import\VTKFileImporter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\mesh\scripting\PythonInterface.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\netcdf\NetCDFImporter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\netcdf\PythonInterface.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\data\BondsStorage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\data\ParticleProperty.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\export\imd\IMDExporter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\export\lammps\LAMMPSDataExporter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\export\lammps\LAMMPSDumpExporter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\export\vasp\POSCARExporter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\export\xyz\XYZExporter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\export\OutputColumnMapping.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\export\ParticleExporter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\export\ParticleExporterSettingsDialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\import\cfg\CFGImporter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\import\imd\IMDImporter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\import\lammps\LAMMPSBinaryDumpImporter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\import\lammps\LAMMPSDataImporter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\import\lammps\LAMMPSTextDumpImporter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\import\parcas\ParcasFileImporter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\import\pdb\PDBImporter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\import\vasp\POSCARImporter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\import\xyz\XYZImporter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\import\InputColumnMapping.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\import\InputColumnMappingDialog.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\import\ParticleFrameLoader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\import\ParticleImporter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\modifier\analysis\binandreduce\BinAndReduceModifier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\modifier\analysis\bondangle\BondAngleAnalysisModifier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\modifier\analysis\centrosymmetry\CentroSymmetryModifier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\modifier\analysis\cluster\ClusterAnalysisModifier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\modifier\analysis\cna\CommonNeighborAnalysisModifier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\modifier\analysis\coordination\CoordinationNumberModifier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\modifier\analysis\diamond\IdentifyDiamondModifier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\modifier\analysis\displacements\CalculateDisplacementsModifier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\modifier\analysis\histogram\HistogramModifier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\modifier\analysis\scatterplot\ScatterPlotModifier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\modifier\analysis\spatialcorrelationfunction\SpatialCorrelationFunctionModifier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\modifier\analysis\strain\AtomicStrainModifier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\modifier\analysis\voronoi\VoronoiAnalysisModifier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\modifier\analysis\wignerseitz\WignerSeitzAnalysisModifier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\modifier\analysis\StructureIdentificationModifier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\modifier\coloring\AmbientOcclusionModifier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\modifier\coloring\AmbientOcclusionRenderer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\modifier\coloring\AssignColorModifier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\modifier\coloring\ColorCodingModifier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\modifier\coloring\ColorLegendOverlay.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\modifier\modify\AffineTransformationModifier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\modifier\modify\CreateBondsModifier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\modifier\modify\DeleteParticlesModifier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\modifier\modify\ShowPeriodicImagesModifier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\modifier\modify\SliceModifier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\modifier\modify\WrapPeriodicImagesModifier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\modifier\properties\ComputePropertyModifier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\modifier\properties\FreezePropertyModifier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\modifier\selection\ClearSelectionModifier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\modifier\selection\InvertSelectionModifier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\modifier\selection\ManualSelectionModifier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\modifier\selection\SelectExpressionModifier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\modifier\selection\SelectParticleTypeModifier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\modifier\AsynchronousParticleModifier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\modifier\ParticleModifier.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\objects\BondsDisplay.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\objects\BondsObject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\objects\ParticleDisplay.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\objects\ParticlePropertyObject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\objects\ParticleType.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\objects\ParticleTypeProperty.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\objects\SimulationCellDisplay.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\objects\SimulationCellObject.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\objects\SurfaceMesh.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\objects\SurfaceMeshDisplay.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\objects\VectorDisplay.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\scripting\ExporterBinding.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\scripting\ImporterBinding.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\scripting\ModifierBinding.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\scripting\PythonInterface.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\util\polytess\dict.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\util\polytess\geom.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\util\polytess\memalloc.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\util\polytess\mesh.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\util\polytess\normal.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\util\polytess\priorityq.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\util\polytess\priorityq-heap.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\util\polytess\render.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\util\polytess\sweep.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\util\polytess\tess.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\util\polytess\tessmono.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\util\CutoffNeighborFinder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\util\CutoffRadiusPresetsUI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\util\NearestNeighborFinder.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\util\ParticleExpressionEvaluator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\util\ParticleInformationApplet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\util\ParticlePickingHelper.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\util\ParticlePropertyComboBox.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\util\ParticlePropertyParameterUI.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\util\ParticleSelectionSet.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\particles\Particles.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\pyscript\binding\AnimationBinding.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\pyscript\binding\AppBinding.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\pyscript\binding\ContainerBinding.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\pyscript\binding\FileIOBinding.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\pyscript\binding\LinearAlgebraBinding.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\pyscript\binding\PythonInterface.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\pyscript\binding\RenderingBinding.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\pyscript\binding\SceneBinding.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\pyscript\binding\ViewportBinding.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\pyscript\engine\ScriptAutostarter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\pyscript\engine\ScriptEngine.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\pyscript\extensions\PythonViewportOverlay.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\pyscript\launcher\Main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\pyscript\PyScript.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\tachyon\renderer\TachyonRenderer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\tachyon\renderer\TachyonRendererEditor.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="src\plugins\tachyon\scripting\PythonInterface.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\opengltest\Main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tests\opengltest\TestWindow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="examples\plugins\random_color\RandomColorModifier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\botan\botan\botan.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\botan\botan\cbc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\botan\botan\der_enc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\botan\botan\dh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\botan\botan\dl_group.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\botan\botan\dsa.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\botan\botan\hmac.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\botan\botan\pem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\botan\botan\pk_filts.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\botan\botan\pkcs8.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\botan\botan\pubkey.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\botan\botan\rsa.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\botan\botan\ui.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\muparser\muParser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\muparser\muParserBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\muparser\muParserBytecode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\muparser\muParserCallback.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\muparser\muParserDef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\muparser\muParserDLL.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\muparser\muParserError.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\muparser\muParserFixes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\muparser\muParserInt.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\muparser\muParserStack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\muparser\muParserTemplateMagic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\muparser\muParserTest.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\muparser\muParserToken.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\muparser\muParserTokenReader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\qcustomplot\qcustomplot.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\qssh\sftpchannel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\qssh\sftpchannel_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\qssh\sftpdefs.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\qssh\sftpfilesystemmodel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\qssh\sftpincomingpacket_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\qssh\sftpoperation_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\qssh\sftpoutgoingpacket_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\qssh\sftppacket_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\qssh\ssh_global.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\qssh\sshbotanconversions_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\qssh\sshcapabilities_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\qssh\sshchannel_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\qssh\sshchannelmanager_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\qssh\sshconnection.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\qssh\sshconnection_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\qssh\sshconnectionmanager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\qssh\sshcryptofacility_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\qssh\ssherrors.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\qssh\sshexception_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\qssh\sshincomingpacket_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\qssh\sshkeyexchange_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\qssh\sshkeygenerator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\qssh\sshkeypasswordretriever_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\qssh\sshoutgoingpacket_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\qssh\sshpacket_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\qssh\sshpacketparser_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\qssh\sshpseudoterminal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\qssh\sshremoteprocess.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\qssh\sshremoteprocess_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\qssh\sshremoteprocessrunner.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\qssh\sshsendfacility_p.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\tachyon\tachyon\apitrigeom.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\tachyon\tachyon\box.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\tachyon\tachyon\camera.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\tachyon\tachyon\cone.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\tachyon\tachyon\coordsys.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\tachyon\tachyon\cylinder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\tachyon\tachyon\extvol.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\tachyon\tachyon\global.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\tachyon\tachyon\grid.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\tachyon\tachyon\hash.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\tachyon\tachyon\image.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\tachyon\tachyon\imageio.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\tachyon\tachyon\imap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\tachyon\tachyon\intersect.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\tachyon\tachyon\jpeg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\tachyon\tachyon\light.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\tachyon\tachyon\macros.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\tachyon\tachyon\parallel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\tachyon\tachyon\parvol.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\tachyon\tachyon\plane.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\tachyon\tachyon\pngfile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\tachyon\tachyon\ppm.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\tachyon\tachyon\psd.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\tachyon\tachyon\quadric.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\tachyon\tachyon\render.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\tachyon\tachyon\ring.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\tachyon\tachyon\sgirgb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\tachyon\tachyon\shade.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\tachyon\tachyon\sphere.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\tachyon\tachyon\tachyon.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\tachyon\tachyon\tachyon_dep.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\tachyon\tachyon\texture.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\tachyon\tachyon\tgafile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\tachyon\tachyon\threads.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\tachyon\tachyon\trace.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\tachyon\tachyon\triangle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\tachyon\tachyon\ui.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\tachyon\tachyon\util.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\tachyon\tachyon\vector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\tachyon\tachyon\vol.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\tachyon\tachyon\winbmp.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\voro++\src\c_loops.hh">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\voro++\src\cell.hh">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\voro++\src\common.hh">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\voro++\src\config.hh">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\voro++\src\container.hh">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\voro++\src\container_prd.hh">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\voro++\src\pre_container.hh">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\voro++\src\rad_option.hh">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\voro++\src\unitcell.hh">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\voro++\src\v_base.hh">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\voro++\src\v_compute.hh">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\voro++\src\voro++.hh">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\voro++\src\wall.hh">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\3rdparty\voro++\src\worklist.hh">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\animation\controller\AnimationKeys.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\animation\controller\ConstantControllers.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\animation\controller\Controller.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\animation\controller\KeyframeController.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\animation\controller\LinearInterpolationControllers.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\animation\controller\LookAtController.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\animation\controller\PRSTransformationController.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\animation\controller\SplineInterpolationControllers.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\animation\AnimationSettings.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\animation\TimeInterval.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\dataset\importexport\FileExporter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\dataset\importexport\FileImporter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\dataset\importexport\FileSource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\dataset\importexport\FileSourceEditor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\dataset\importexport\FileSourceImporter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\dataset\DataSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\dataset\DataSetContainer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\dataset\UndoStack.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\actions\ActionManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\actions\ViewportModeAction.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\app\Application.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\dialogs\AdjustCameraDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\dialogs\AnimationSettingsDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\dialogs\ApplicationSettingsDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\dialogs\GeneralSettingsPage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\dialogs\HistoryFileDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\dialogs\ImportFileDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\dialogs\ImportRemoteFileDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\dialogs\LoadImageFileDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\dialogs\RemoteAuthenticationDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\dialogs\SaveImageFileDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\dialogs\ViewportSettingsPage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\mainwin\cmdpanel\CommandPanel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\mainwin\cmdpanel\ModificationListItem.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\mainwin\cmdpanel\ModificationListModel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\mainwin\cmdpanel\ModifierListBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\mainwin\cmdpanel\ModifyCommandPage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\mainwin\cmdpanel\OverlayCommandPage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\mainwin\cmdpanel\RenderCommandPage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\mainwin\cmdpanel\UtilityCommandPage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\mainwin\MainWindow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\mainwin\ViewportsPanel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\properties\AffineTransformationParameterUI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\properties\BooleanActionParameterUI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\properties\BooleanGroupBoxParameterUI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\properties\BooleanParameterUI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\properties\BooleanRadioButtonParameterUI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\properties\ColorParameterUI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\properties\CustomParameterUI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\properties\FilenameParameterUI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\properties\FloatParameterUI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\properties\FontParameterUI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\properties\IntegerParameterUI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\properties\IntegerRadioButtonParameterUI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\properties\NumericalParameterUI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\properties\ParameterUI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\properties\PropertiesEditor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\properties\PropertiesPanel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\properties\RefTargetListParameterUI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\properties\StringParameterUI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\properties\SubObjectParameterUI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\properties\VariantComboBoxParameterUI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\properties\Vector3ParameterUI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\widgets\animation\AnimationFramesToolButton.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\widgets\animation\AnimationTimeSlider.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\widgets\animation\AnimationTimeSpinner.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\widgets\animation\AnimationTrackBar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\widgets\display\CoordinateDisplayWidget.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\widgets\display\StatusWidget.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\widgets\general\AutocompleteLineEdit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\widgets\general\ColorPickerWidget.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\widgets\general\ElidedTextLabel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\widgets\general\RolloutContainer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\widgets\general\SpinnerWidget.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\widgets\rendering\FrameBufferWidget.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\widgets\rendering\FrameBufferWindow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\widgets\selection\SceneNodeSelectionBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\gui\widgets\selection\SceneNodesListModel.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\object\NativeOvitoObjectType.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\object\OvitoObject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\object\OvitoObjectReference.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\object\OvitoObjectType.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\plugins\autostart\AutoStartObject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\plugins\utility\UtilityApplet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\plugins\NativePlugin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\plugins\Plugin.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\plugins\PluginManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\reference\CloneHelper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\reference\NativePropertyFieldDescriptor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\reference\PropertyField.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\reference\PropertyFieldDescriptor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\reference\ReferenceEvent.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\reference\RefMaker.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\reference\RefTarget.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\reference\RefTargetListener.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\rendering\noninteractive\DefaultArrowPrimitive.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\rendering\noninteractive\DefaultImagePrimitive.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\rendering\noninteractive\DefaultLinePrimitive.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\rendering\noninteractive\DefaultMeshPrimitive.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\rendering\noninteractive\DefaultParticlePrimitive.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\rendering\noninteractive\DefaultTextPrimitive.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\rendering\noninteractive\NonInteractiveSceneRenderer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\rendering\standard\StandardSceneRenderer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\rendering\standard\StandardSceneRendererEditor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\rendering\viewport\OpenGLArrowPrimitive.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\rendering\viewport\OpenGLBuffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\rendering\viewport\OpenGLHelpers.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\rendering\viewport\OpenGLImagePrimitive.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\rendering\viewport\OpenGLLinePrimitive.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\rendering\viewport\OpenGLMeshPrimitive.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\rendering\viewport\OpenGLParticlePrimitive.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\rendering\viewport\OpenGLSharedResource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\rendering\viewport\OpenGLTextPrimitive.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\rendering\viewport\OpenGLTexture.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\rendering\viewport\ViewportSceneRenderer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\rendering\ArrowPrimitive.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\rendering\FrameBuffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\rendering\ImagePrimitive.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\rendering\LinePrimitive.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\rendering\MeshPrimitive.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\rendering\ParticlePrimitive.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\rendering\PrimitiveBase.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\rendering\RenderSettings.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\rendering\RenderSettingsEditor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\rendering\SceneRenderer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\rendering\TextPrimitive.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\scene\objects\camera\AbstractCameraObject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\scene\objects\camera\CameraObject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\scene\objects\geometry\TriMeshDisplay.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\scene\objects\geometry\TriMeshObject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\scene\objects\helpers\TargetObject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\scene\objects\CompoundObject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\scene\objects\DataObject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\scene\objects\DisplayObject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\scene\objects\VersionedObjectReference.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\scene\objects\WeakVersionedObjectReference.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\scene\pipeline\Modifier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\scene\pipeline\ModifierApplication.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\scene\pipeline\PipelineFlowState.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\scene\pipeline\PipelineObject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\scene\pipeline\PipelineStatus.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\scene\ObjectNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\scene\SceneNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\scene\SceneRoot.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\scene\SelectionSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\utilities\concurrent\Future.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\utilities\concurrent\FutureInterface.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\utilities\concurrent\FutureWatcher.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\utilities\concurrent\ParallelFor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\utilities\concurrent\Task.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\utilities\concurrent\TaskManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\utilities\io\gzdevice\qtiocompressor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\utilities\io\video\VideoEncoder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\utilities\io\CompressedTextReader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\utilities\io\CompressedTextWriter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\utilities\io\FileManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\utilities\io\LoadStream.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\utilities\io\ObjectLoadStream.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\utilities\io\ObjectSaveStream.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\utilities\io\SaveStream.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\utilities\io\SftpJob.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\utilities\linalg\AffineDecomposition.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\utilities\linalg\AffineTransformation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\utilities\linalg\Box2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\utilities\linalg\Box3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\utilities\linalg\LinAlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\utilities\linalg\Matrix3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\utilities\linalg\Matrix4.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\utilities\linalg\Plane.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\utilities\linalg\Point2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\utilities\linalg\Point3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\utilities\linalg\Quaternion.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\utilities\linalg\Ray.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\utilities\linalg\Rotation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\utilities\linalg\Scaling.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\utilities\linalg\SymmetricTensor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\utilities\linalg\Vector2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\utilities\linalg\Vector3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\utilities\linalg\Vector4.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\utilities\mesh\HalfEdgeMesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\utilities\mesh\TriMesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\utilities\units\UnitsManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\utilities\BoundedPriorityQueue.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\utilities\Color.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\utilities\Debugging.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\utilities\Exception.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\utilities\FloatType.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\utilities\MemoryPool.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\viewport\input\NavigationModes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\viewport\input\ViewportInputManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\viewport\input\ViewportInputMode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\viewport\input\XFormModes.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\viewport\overlay\CoordinateTripodOverlay.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\viewport\overlay\ViewportOverlay.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\viewport\picking\PickingSceneRenderer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\viewport\Viewport.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\viewport\ViewportConfiguration.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\viewport\ViewportMenu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\viewport\ViewportSettings.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\viewport\ViewportWindow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\Core.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\core\ForwardDecl.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\crystalanalysis\data\clusters\Cluster.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\crystalanalysis\data\clusters\ClusterGraph.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\crystalanalysis\data\dislocations\DislocationDisplay.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\crystalanalysis\data\dislocations\DislocationInspector.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\crystalanalysis\data\dislocations\DislocationNetwork.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\crystalanalysis\data\dislocations\DislocationSegment.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\crystalanalysis\data\patterns\BurgersVectorFamily.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\crystalanalysis\data\patterns\PatternCatalog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\crystalanalysis\data\patterns\StructurePattern.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\crystalanalysis\importer\CAImporter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\crystalanalysis\modifier\ConstructSurfaceModifier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\crystalanalysis\modifier\ShiftModifier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\crystalanalysis\modifier\SmoothDislocationsModifier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\crystalanalysis\modifier\SmoothSurfaceModifier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\crystalanalysis\util\DelaunayTessellation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\crystalanalysis\CrystalAnalysis.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\mesh\import\TriMeshLoader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\mesh\import\VTKFileImporter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\mesh\Mesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\netcdf\NetCDFImporter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\data\BondsStorage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\data\ParticleProperty.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\data\SimulationCell.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\export\imd\IMDExporter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\export\lammps\LAMMPSDataExporter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\export\lammps\LAMMPSDumpExporter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\export\vasp\POSCARExporter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\export\xyz\XYZExporter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\export\OutputColumnMapping.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\export\ParticleExporter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\export\ParticleExporterSettingsDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\import\cfg\CFGImporter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\import\imd\IMDImporter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\import\lammps\LAMMPSBinaryDumpImporter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\import\lammps\LAMMPSDataImporter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\import\lammps\LAMMPSTextDumpImporter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\import\parcas\ParcasFileImporter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\import\pdb\PDBImporter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\import\vasp\POSCARImporter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\import\xyz\XYZImporter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\import\InputColumnMapping.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\import\InputColumnMappingDialog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\import\ParticleFrameLoader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\import\ParticleImporter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\modifier\analysis\binandreduce\BinAndReduceModifier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\modifier\analysis\bondangle\BondAngleAnalysisModifier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\modifier\analysis\centrosymmetry\CentroSymmetryModifier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\modifier\analysis\cluster\ClusterAnalysisModifier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\modifier\analysis\cna\CommonNeighborAnalysisModifier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\modifier\analysis\coordination\CoordinationNumberModifier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\modifier\analysis\diamond\IdentifyDiamondModifier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\modifier\analysis\displacements\CalculateDisplacementsModifier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\modifier\analysis\histogram\HistogramModifier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\modifier\analysis\scatterplot\ScatterPlotModifier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\modifier\analysis\spatialcorrelationfunction\SpatialCorrelationFunctionModifier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\modifier\analysis\strain\AtomicStrainModifier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\modifier\analysis\voronoi\VoronoiAnalysisModifier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\modifier\analysis\wignerseitz\WignerSeitzAnalysisModifier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\modifier\analysis\StructureIdentificationModifier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\modifier\coloring\AmbientOcclusionModifier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\modifier\coloring\AmbientOcclusionRenderer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\modifier\coloring\AssignColorModifier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\modifier\coloring\ColorCodingModifier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\modifier\coloring\ColorLegendOverlay.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\modifier\modify\AffineTransformationModifier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\modifier\modify\CreateBondsModifier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\modifier\modify\DeleteParticlesModifier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\modifier\modify\ShowPeriodicImagesModifier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\modifier\modify\SliceModifier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\modifier\modify\WrapPeriodicImagesModifier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\modifier\properties\ComputePropertyModifier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\modifier\properties\FreezePropertyModifier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\modifier\selection\ClearSelectionModifier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\modifier\selection\InvertSelectionModifier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\modifier\selection\ManualSelectionModifier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\modifier\selection\SelectExpressionModifier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\modifier\selection\SelectParticleTypeModifier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\modifier\AsynchronousParticleModifier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\modifier\ParticleModifier.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\objects\BondsDisplay.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\objects\BondsObject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\objects\ParticleDisplay.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\objects\ParticlePropertyObject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\objects\ParticleType.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\objects\ParticleTypeProperty.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\objects\SimulationCellDisplay.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\objects\SimulationCellObject.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\objects\SurfaceMesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\objects\SurfaceMeshDisplay.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\objects\VectorDisplay.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\util\polytess\dict.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\util\polytess\dict-list.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\util\polytess\geom.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\util\polytess\glu.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\util\polytess\memalloc.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\util\polytess\mesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\util\polytess\normal.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\util\polytess\priorityq.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\util\polytess\priorityq-heap.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\util\polytess\priorityq-sort.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\util\polytess\render.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\util\polytess\sweep.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\util\polytess\tess.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\util\polytess\tessmono.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\util\CapPolygonTessellator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\util\CutoffNeighborFinder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\util\CutoffRadiusPresetsUI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\util\NearestNeighborFinder.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\util\ParticleExpressionEvaluator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\util\ParticleInformationApplet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\util\ParticlePickingHelper.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\util\ParticlePropertyComboBox.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\util\ParticlePropertyParameterUI.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\util\ParticleSelectionSet.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\particles\Particles.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\pyscript\binding\PythonBinding.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\pyscript\engine\ScriptAutostarter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\pyscript\engine\ScriptEngine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\pyscript\extensions\PythonViewportOverlay.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\pyscript\PyScript.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\tachyon\renderer\TachyonRenderer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="src\plugins\tachyon\renderer\TachyonRendererEditor.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\opengltest\OpenGLBuffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\opengltest\ParticleWindow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\opengltest\TestWindow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\opengltest\Window1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\opengltest\Window2.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\opengltest\Window3.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\opengltest\Window4.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\opengltest\Window5.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\opengltest\Window6.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\opengltest\Window7.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\opengltest\Window8.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\opengltest\Window9.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\opengltest\Window10.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tests\opengltest\Window11.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\3rdparty\voro++\html\annotated.html" />
+    <None Include="src\3rdparty\voro++\html\c__loops_8cc.html" />
+    <None Include="src\3rdparty\voro++\html\c__loops_8cc_source.html" />
+    <None Include="src\3rdparty\voro++\html\c__loops_8hh.html" />
+    <None Include="src\3rdparty\voro++\html\c__loops_8hh_source.html" />
+    <None Include="src\3rdparty\voro++\html\cell_8cc.html" />
+    <None Include="src\3rdparty\voro++\html\cell_8cc_source.html" />
+    <None Include="src\3rdparty\voro++\html\cell_8hh.html" />
+    <None Include="src\3rdparty\voro++\html\cell_8hh_source.html" />
+    <None Include="src\3rdparty\voro++\html\classes.html" />
+    <None Include="src\3rdparty\voro++\html\classvoro_1_1c__loop__all.html" />
+    <None Include="src\3rdparty\voro++\html\classvoro_1_1c__loop__all__periodic.html" />
+    <None Include="src\3rdparty\voro++\html\classvoro_1_1c__loop__base.html" />
+    <None Include="src\3rdparty\voro++\html\classvoro_1_1c__loop__order.html" />
+    <None Include="src\3rdparty\voro++\html\classvoro_1_1c__loop__order__periodic.html" />
+    <None Include="src\3rdparty\voro++\html\classvoro_1_1c__loop__subset.html" />
+    <None Include="src\3rdparty\voro++\html\classvoro_1_1container.html" />
+    <None Include="src\3rdparty\voro++\html\classvoro_1_1container__base.html" />
+    <None Include="src\3rdparty\voro++\html\classvoro_1_1container__periodic.html" />
+    <None Include="src\3rdparty\voro++\html\classvoro_1_1container__periodic__base.html" />
+    <None Include="src\3rdparty\voro++\html\classvoro_1_1container__periodic__poly.html" />
+    <None Include="src\3rdparty\voro++\html\classvoro_1_1container__poly.html" />
+    <None Include="src\3rdparty\voro++\html\classvoro_1_1particle__order.html" />
+    <None Include="src\3rdparty\voro++\html\classvoro_1_1pre__container.html" />
+    <None Include="src\3rdparty\voro++\html\classvoro_1_1pre__container__base.html" />
+    <None Include="src\3rdparty\voro++\html\classvoro_1_1pre__container__poly.html" />
+    <None Include="src\3rdparty\voro++\html\classvoro_1_1radius__mono.html" />
+    <None Include="src\3rdparty\voro++\html\classvoro_1_1radius__poly.html" />
+    <None Include="src\3rdparty\voro++\html\classvoro_1_1unitcell.html" />
+    <None Include="src\3rdparty\voro++\html\classvoro_1_1voro__base.html" />
+    <None Include="src\3rdparty\voro++\html\classvoro_1_1voro__compute.html" />
+    <None Include="src\3rdparty\voro++\html\classvoro_1_1voronoicell.html" />
+    <None Include="src\3rdparty\voro++\html\classvoro_1_1voronoicell__base.html" />
+    <None Include="src\3rdparty\voro++\html\classvoro_1_1voronoicell__neighbor.html" />
+    <None Include="src\3rdparty\voro++\html\classvoro_1_1wall.html" />
+    <None Include="src\3rdparty\voro++\html\classvoro_1_1wall__list.html" />
+    <None Include="src\3rdparty\voro++\html\common_8cc.html" />
+    <None Include="src\3rdparty\voro++\html\common_8cc_source.html" />
+    <None Include="src\3rdparty\voro++\html\common_8hh.html" />
+    <None Include="src\3rdparty\voro++\html\common_8hh_source.html" />
+    <None Include="src\3rdparty\voro++\html\config_8hh.html" />
+    <None Include="src\3rdparty\voro++\html\config_8hh_source.html" />
+    <None Include="src\3rdparty\voro++\html\container__prd_8cc.html" />
+    <None Include="src\3rdparty\voro++\html\container__prd_8cc_source.html" />
+    <None Include="src\3rdparty\voro++\html\container__prd_8hh.html" />
+    <None Include="src\3rdparty\voro++\html\container__prd_8hh_source.html" />
+    <None Include="src\3rdparty\voro++\html\container_8cc.html" />
+    <None Include="src\3rdparty\voro++\html\container_8cc_source.html" />
+    <None Include="src\3rdparty\voro++\html\container_8hh.html" />
+    <None Include="src\3rdparty\voro++\html\container_8hh_source.html" />
+    <None Include="src\3rdparty\voro++\html\files.html" />
+    <None Include="src\3rdparty\voro++\html\functions.html" />
+    <None Include="src\3rdparty\voro++\html\functions_0x6a.html" />
+    <None Include="src\3rdparty\voro++\html\functions_0x6b.html" />
+    <None Include="src\3rdparty\voro++\html\functions_0x6c.html" />
+    <None Include="src\3rdparty\voro++\html\functions_0x6d.html" />
+    <None Include="src\3rdparty\voro++\html\functions_0x6e.html" />
+    <None Include="src\3rdparty\voro++\html\functions_0x6f.html" />
+    <None Include="src\3rdparty\voro++\html\functions_0x7a.html" />
+    <None Include="src\3rdparty\voro++\html\functions_0x7e.html" />
+    <None Include="src\3rdparty\voro++\html\functions_0x62.html" />
+    <None Include="src\3rdparty\voro++\html\functions_0x63.html" />
+    <None Include="src\3rdparty\voro++\html\functions_0x64.html" />
+    <None Include="src\3rdparty\voro++\html\functions_0x65.html" />
+    <None Include="src\3rdparty\voro++\html\functions_0x66.html" />
+    <None Include="src\3rdparty\voro++\html\functions_0x67.html" />
+    <None Include="src\3rdparty\voro++\html\functions_0x68.html" />
+    <None Include="src\3rdparty\voro++\html\functions_0x69.html" />
+    <None Include="src\3rdparty\voro++\html\functions_0x70.html" />
+    <None Include="src\3rdparty\voro++\html\functions_0x71.html" />
+    <None Include="src\3rdparty\voro++\html\functions_0x72.html" />
+    <None Include="src\3rdparty\voro++\html\functions_0x73.html" />
+    <None Include="src\3rdparty\voro++\html\functions_0x74.html" />
+    <None Include="src\3rdparty\voro++\html\functions_0x75.html" />
+    <None Include="src\3rdparty\voro++\html\functions_0x76.html" />
+    <None Include="src\3rdparty\voro++\html\functions_0x77.html" />
+    <None Include="src\3rdparty\voro++\html\functions_0x78.html" />
+    <None Include="src\3rdparty\voro++\html\functions_0x79.html" />
+    <None Include="src\3rdparty\voro++\html\functions_func.html" />
+    <None Include="src\3rdparty\voro++\html\functions_func_0x6d.html" />
+    <None Include="src\3rdparty\voro++\html\functions_func_0x6e.html" />
+    <None Include="src\3rdparty\voro++\html\functions_func_0x6f.html" />
+    <None Include="src\3rdparty\voro++\html\functions_func_0x7a.html" />
+    <None Include="src\3rdparty\voro++\html\functions_func_0x7e.html" />
+    <None Include="src\3rdparty\voro++\html\functions_func_0x63.html" />
+    <None Include="src\3rdparty\voro++\html\functions_func_0x64.html" />
+    <None Include="src\3rdparty\voro++\html\functions_func_0x65.html" />
+    <None Include="src\3rdparty\voro++\html\functions_func_0x66.html" />
+    <None Include="src\3rdparty\voro++\html\functions_func_0x67.html" />
+    <None Include="src\3rdparty\voro++\html\functions_func_0x69.html" />
+    <None Include="src\3rdparty\voro++\html\functions_func_0x70.html" />
+    <None Include="src\3rdparty\voro++\html\functions_func_0x72.html" />
+    <None Include="src\3rdparty\voro++\html\functions_func_0x73.html" />
+    <None Include="src\3rdparty\voro++\html\functions_func_0x74.html" />
+    <None Include="src\3rdparty\voro++\html\functions_func_0x75.html" />
+    <None Include="src\3rdparty\voro++\html\functions_func_0x76.html" />
+    <None Include="src\3rdparty\voro++\html\functions_func_0x77.html" />
+    <None Include="src\3rdparty\voro++\html\functions_func_0x78.html" />
+    <None Include="src\3rdparty\voro++\html\functions_func_0x79.html" />
+    <None Include="src\3rdparty\voro++\html\functions_vars.html" />
+    <None Include="src\3rdparty\voro++\html\globals.html" />
+    <None Include="src\3rdparty\voro++\html\globals_defs.html" />
+    <None Include="src\3rdparty\voro++\html\hierarchy.html" />
+    <None Include="src\3rdparty\voro++\html\index.html" />
+    <None Include="src\3rdparty\voro++\html\pre__container_8cc.html" />
+    <None Include="src\3rdparty\voro++\html\pre__container_8cc_source.html" />
+    <None Include="src\3rdparty\voro++\html\pre__container_8hh.html" />
+    <None Include="src\3rdparty\voro++\html\pre__container_8hh_source.html" />
+    <None Include="src\3rdparty\voro++\html\rad__option_8hh.html" />
+    <None Include="src\3rdparty\voro++\html\rad__option_8hh_source.html" />
+    <None Include="src\3rdparty\voro++\html\structvoro_1_1particle__record.html" />
+    <None Include="src\3rdparty\voro++\html\structvoro_1_1wall__cone.html" />
+    <None Include="src\3rdparty\voro++\html\structvoro_1_1wall__cylinder.html" />
+    <None Include="src\3rdparty\voro++\html\structvoro_1_1wall__plane.html" />
+    <None Include="src\3rdparty\voro++\html\structvoro_1_1wall__sphere.html" />
+    <None Include="src\3rdparty\voro++\html\unitcell_8cc.html" />
+    <None Include="src\3rdparty\voro++\html\unitcell_8cc_source.html" />
+    <None Include="src\3rdparty\voro++\html\unitcell_8hh.html" />
+    <None Include="src\3rdparty\voro++\html\unitcell_8hh_source.html" />
+    <None Include="src\3rdparty\voro++\html\v__base__wl_8cc.html" />
+    <None Include="src\3rdparty\voro++\html\v__base__wl_8cc_source.html" />
+    <None Include="src\3rdparty\voro++\html\v__base_8cc.html" />
+    <None Include="src\3rdparty\voro++\html\v__base_8cc_source.html" />
+    <None Include="src\3rdparty\voro++\html\v__base_8hh.html" />
+    <None Include="src\3rdparty\voro++\html\v__base_8hh_source.html" />
+    <None Include="src\3rdparty\voro++\html\v__compute_8cc.html" />
+    <None Include="src\3rdparty\voro++\html\v__compute_8cc_source.html" />
+    <None Include="src\3rdparty\voro++\html\v__compute_8hh.html" />
+    <None Include="src\3rdparty\voro++\html\v__compute_8hh_source.html" />
+    <None Include="src\3rdparty\voro++\html\voro_09_09_8cc.html" />
+    <None Include="src\3rdparty\voro++\html\voro_09_09_8cc_source.html" />
+    <None Include="src\3rdparty\voro++\html\voro_09_09_8hh.html" />
+    <None Include="src\3rdparty\voro++\html\voro_09_09_8hh_source.html" />
+    <None Include="src\3rdparty\voro++\html\wall_8cc.html" />
+    <None Include="src\3rdparty\voro++\html\wall_8cc_source.html" />
+    <None Include="src\3rdparty\voro++\html\wall_8hh.html" />
+    <None Include="src\3rdparty\voro++\html\wall_8hh_source.html" />
+    <None Include="src\3rdparty\voro++\html\worklist_8hh.html" />
+    <None Include="src\3rdparty\voro++\html\worklist_8hh_source.html" />
+    <None Include="src\core\resources\mainwin\command_panel\about_panel.html" />
+    <None Include="tests\files\shear.void.dump.bin">
+      <Filter>资源文件</Filter>
+    </None>
+    <None Include=".gitattributes" />
+    <None Include=".gitignore" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="src\main\resources\ovito.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CMakeLists.txt" />
+    <Text Include="LICENSE.txt" />
+    <Text Include="README.txt" />
+  </ItemGroup>
+</Project>

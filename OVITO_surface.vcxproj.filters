@@ -582,15 +582,6 @@
     <ClCompile Include="src\core\gui\widgets\selection\SceneNodesListModel.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="src\core\object\NativeOvitoObjectType.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\object\OvitoObject.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\object\OvitoObjectType.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="src\core\plugins\autostart\AutoStartObject.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -673,12 +664,6 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="src\core\rendering\viewport\ViewportSceneRenderer.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\rendering\FrameBuffer.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\rendering\RenderSettings.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="src\core\rendering\RenderSettingsEditor.cpp">
@@ -1808,18 +1793,6 @@
     <ClInclude Include="src\core\gui\widgets\selection\SceneNodesListModel.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="src\core\object\NativeOvitoObjectType.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\object\OvitoObject.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\object\OvitoObjectReference.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\object\OvitoObjectType.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="src\core\plugins\autostart\AutoStartObject.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -1919,22 +1892,10 @@
     <ClInclude Include="src\core\rendering\viewport\ViewportSceneRenderer.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="src\core\rendering\FrameBuffer.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\rendering\ImagePrimitive.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\rendering\RenderSettings.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="src\core\rendering\RenderSettingsEditor.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="src\core\rendering\SceneRenderer.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\rendering\TextPrimitive.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="src\core\scene\objects\camera\AbstractCameraObject.h">

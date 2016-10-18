@@ -255,9 +255,6 @@
     <ClCompile Include="src\core\gui\widgets\rendering\FrameBufferWindow.cpp" />
     <ClCompile Include="src\core\gui\widgets\selection\SceneNodeSelectionBox.cpp" />
     <ClCompile Include="src\core\gui\widgets\selection\SceneNodesListModel.cpp" />
-    <ClCompile Include="src\core\object\NativeOvitoObjectType.cpp" />
-    <ClCompile Include="src\core\object\OvitoObject.cpp" />
-    <ClCompile Include="src\core\object\OvitoObjectType.cpp" />
     <ClCompile Include="src\core\plugins\autostart\AutoStartObject.cpp" />
     <ClCompile Include="src\core\plugins\NativePlugin.cpp" />
     <ClCompile Include="src\core\plugins\Plugin.cpp" />
@@ -269,7 +266,6 @@
     <ClCompile Include="src\core\reference\RefMaker.cpp" />
     <ClCompile Include="src\core\reference\RefTarget.cpp" />
     <ClCompile Include="src\core\reference\RefTargetListener.cpp" />
-    <ClCompile Include="src\core\rendering\FrameBuffer.cpp" />
     <ClCompile Include="src\core\rendering\noninteractive\DefaultArrowPrimitive.cpp" />
     <ClCompile Include="src\core\rendering\noninteractive\DefaultImagePrimitive.cpp" />
     <ClCompile Include="src\core\rendering\noninteractive\DefaultLinePrimitive.cpp" />
@@ -277,7 +273,6 @@
     <ClCompile Include="src\core\rendering\noninteractive\DefaultParticlePrimitive.cpp" />
     <ClCompile Include="src\core\rendering\noninteractive\DefaultTextPrimitive.cpp" />
     <ClCompile Include="src\core\rendering\noninteractive\NonInteractiveSceneRenderer.cpp" />
-    <ClCompile Include="src\core\rendering\RenderSettings.cpp" />
     <ClCompile Include="src\core\rendering\RenderSettingsEditor.cpp" />
     <ClCompile Include="src\core\rendering\SceneRenderer.cpp" />
     <ClCompile Include="src\core\rendering\standard\StandardSceneRenderer.cpp" />
@@ -666,10 +661,6 @@
     <ClInclude Include="src\core\gui\widgets\rendering\FrameBufferWindow.h" />
     <ClInclude Include="src\core\gui\widgets\selection\SceneNodeSelectionBox.h" />
     <ClInclude Include="src\core\gui\widgets\selection\SceneNodesListModel.h" />
-    <ClInclude Include="src\core\object\NativeOvitoObjectType.h" />
-    <ClInclude Include="src\core\object\OvitoObject.h" />
-    <ClInclude Include="src\core\object\OvitoObjectReference.h" />
-    <ClInclude Include="src\core\object\OvitoObjectType.h" />
     <ClInclude Include="src\core\plugins\autostart\AutoStartObject.h" />
     <ClInclude Include="src\core\plugins\NativePlugin.h" />
     <ClInclude Include="src\core\plugins\Plugin.h" />
@@ -683,8 +674,6 @@
     <ClInclude Include="src\core\reference\RefMaker.h" />
     <ClInclude Include="src\core\reference\RefTarget.h" />
     <ClInclude Include="src\core\reference\RefTargetListener.h" />
-    <ClInclude Include="src\core\rendering\FrameBuffer.h" />
-    <ClInclude Include="src\core\rendering\ImagePrimitive.h" />
     <ClInclude Include="src\core\rendering\noninteractive\DefaultArrowPrimitive.h" />
     <ClInclude Include="src\core\rendering\noninteractive\DefaultImagePrimitive.h" />
     <ClInclude Include="src\core\rendering\noninteractive\DefaultLinePrimitive.h" />
@@ -692,12 +681,10 @@
     <ClInclude Include="src\core\rendering\noninteractive\DefaultParticlePrimitive.h" />
     <ClInclude Include="src\core\rendering\noninteractive\DefaultTextPrimitive.h" />
     <ClInclude Include="src\core\rendering\noninteractive\NonInteractiveSceneRenderer.h" />
-    <ClInclude Include="src\core\rendering\RenderSettings.h" />
     <ClInclude Include="src\core\rendering\RenderSettingsEditor.h" />
     <ClInclude Include="src\core\rendering\SceneRenderer.h" />
     <ClInclude Include="src\core\rendering\standard\StandardSceneRenderer.h" />
     <ClInclude Include="src\core\rendering\standard\StandardSceneRendererEditor.h" />
-    <ClInclude Include="src\core\rendering\TextPrimitive.h" />
     <ClInclude Include="src\core\rendering\viewport\OpenGLArrowPrimitive.h" />
     <ClInclude Include="src\core\rendering\viewport\OpenGLBuffer.h" />
     <ClInclude Include="src\core\rendering\viewport\OpenGLHelpers.h" />

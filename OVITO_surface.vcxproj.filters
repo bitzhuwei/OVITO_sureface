@@ -1925,9 +1925,6 @@
     <ClInclude Include="src\core\rendering\ImagePrimitive.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="src\core\rendering\ParticlePrimitive.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="src\core\rendering\RenderSettings.h">
       <Filter>头文件</Filter>
     </ClInclude>

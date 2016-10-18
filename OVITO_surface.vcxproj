@@ -683,11 +683,8 @@
     <ClInclude Include="src\core\reference\RefMaker.h" />
     <ClInclude Include="src\core\reference\RefTarget.h" />
     <ClInclude Include="src\core\reference\RefTargetListener.h" />
-    <ClInclude Include="src\core\rendering\ArrowPrimitive.h" />
     <ClInclude Include="src\core\rendering\FrameBuffer.h" />
     <ClInclude Include="src\core\rendering\ImagePrimitive.h" />
-    <ClInclude Include="src\core\rendering\LinePrimitive.h" />
-    <ClInclude Include="src\core\rendering\MeshPrimitive.h" />
     <ClInclude Include="src\core\rendering\noninteractive\DefaultArrowPrimitive.h" />
     <ClInclude Include="src\core\rendering\noninteractive\DefaultImagePrimitive.h" />
     <ClInclude Include="src\core\rendering\noninteractive\DefaultLinePrimitive.h" />
@@ -696,7 +693,6 @@
     <ClInclude Include="src\core\rendering\noninteractive\DefaultTextPrimitive.h" />
     <ClInclude Include="src\core\rendering\noninteractive\NonInteractiveSceneRenderer.h" />
     <ClInclude Include="src\core\rendering\ParticlePrimitive.h" />
-    <ClInclude Include="src\core\rendering\PrimitiveBase.h" />
     <ClInclude Include="src\core\rendering\RenderSettings.h" />
     <ClInclude Include="src\core\rendering\RenderSettingsEditor.h" />
     <ClInclude Include="src\core\rendering\SceneRenderer.h" />

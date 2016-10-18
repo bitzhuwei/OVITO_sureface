@@ -1919,25 +1919,13 @@
     <ClInclude Include="src\core\rendering\viewport\ViewportSceneRenderer.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="src\core\rendering\ArrowPrimitive.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="src\core\rendering\FrameBuffer.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="src\core\rendering\ImagePrimitive.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="src\core\rendering\LinePrimitive.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\rendering\MeshPrimitive.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="src\core\rendering\ParticlePrimitive.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\rendering\PrimitiveBase.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="src\core\rendering\RenderSettings.h">

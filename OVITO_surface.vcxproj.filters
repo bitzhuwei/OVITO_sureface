@@ -642,9 +642,6 @@
     <ClCompile Include="src\core\rendering\standard\StandardSceneRendererEditor.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="src\core\rendering\viewport\OpenGLArrowPrimitive.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="src\core\rendering\viewport\OpenGLImagePrimitive.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -664,12 +661,6 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="src\core\rendering\viewport\ViewportSceneRenderer.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\rendering\RenderSettingsEditor.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\rendering\SceneRenderer.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="src\core\scene\objects\camera\CameraObject.cpp">
@@ -1859,15 +1850,6 @@
     <ClInclude Include="src\core\rendering\standard\StandardSceneRendererEditor.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="src\core\rendering\viewport\OpenGLArrowPrimitive.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\rendering\viewport\OpenGLBuffer.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\rendering\viewport\OpenGLHelpers.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="src\core\rendering\viewport\OpenGLImagePrimitive.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -1890,12 +1872,6 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="src\core\rendering\viewport\ViewportSceneRenderer.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\rendering\RenderSettingsEditor.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\rendering\SceneRenderer.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="src\core\scene\objects\camera\AbstractCameraObject.h">

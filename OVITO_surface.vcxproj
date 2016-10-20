@@ -183,7 +183,6 @@
     <ClCompile Include="src\core\animation\controller\LookAtController.cpp" />
     <ClCompile Include="src\core\animation\controller\PRSTransformationController.cpp" />
     <ClCompile Include="src\core\animation\controller\SplineInterpolationControllers.cpp" />
-    <ClCompile Include="src\core\Core.cpp" />
     <ClCompile Include="src\core\dataset\DataSet.cpp" />
     <ClCompile Include="src\core\dataset\DataSetContainer.cpp" />
     <ClCompile Include="src\core\dataset\importexport\FileImporter.cpp" />
@@ -588,7 +587,6 @@
     <ClInclude Include="src\core\animation\controller\PRSTransformationController.h" />
     <ClInclude Include="src\core\animation\controller\SplineInterpolationControllers.h" />
     <ClInclude Include="src\core\animation\TimeInterval.h" />
-    <ClInclude Include="src\core\Core.h" />
     <ClInclude Include="src\core\dataset\DataSet.h" />
     <ClInclude Include="src\core\dataset\DataSetContainer.h" />
     <ClInclude Include="src\core\dataset\importexport\FileExporter.h" />
@@ -597,7 +595,6 @@
     <ClInclude Include="src\core\dataset\importexport\FileSourceEditor.h" />
     <ClInclude Include="src\core\dataset\importexport\FileSourceImporter.h" />
     <ClInclude Include="src\core\dataset\UndoStack.h" />
-    <ClInclude Include="src\core\ForwardDecl.h" />
     <ClInclude Include="src\core\gui\actions\ActionManager.h" />
     <ClInclude Include="src\core\gui\actions\ViewportModeAction.h" />
     <ClInclude Include="src\core\gui\app\Application.h" />

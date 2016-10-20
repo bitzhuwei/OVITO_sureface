@@ -795,9 +795,6 @@
     <ClCompile Include="src\core\viewport\ViewportWindow.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="src\core\Core.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="src\main\Main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -2094,12 +2091,6 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="src\core\viewport\ViewportWindow.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\Core.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\ForwardDecl.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="src\plugins\crystalanalysis\data\clusters\Cluster.h">

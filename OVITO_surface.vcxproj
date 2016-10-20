@@ -298,7 +298,6 @@
     <ClCompile Include="src\core\scene\SelectionSet.cpp" />
     <ClCompile Include="src\core\utilities\concurrent\Future.cpp" />
     <ClCompile Include="src\core\utilities\concurrent\TaskManager.cpp" />
-    <ClCompile Include="src\core\utilities\Exception.cpp" />
     <ClCompile Include="src\core\utilities\io\CompressedTextReader.cpp" />
     <ClCompile Include="src\core\utilities\io\CompressedTextWriter.cpp" />
     <ClCompile Include="src\core\utilities\io\FileManager.cpp" />
@@ -704,17 +703,12 @@
     <ClInclude Include="src\core\scene\SceneNode.h" />
     <ClInclude Include="src\core\scene\SceneRoot.h" />
     <ClInclude Include="src\core\scene\SelectionSet.h" />
-    <ClInclude Include="src\core\utilities\BoundedPriorityQueue.h" />
-    <ClInclude Include="src\core\utilities\Color.h" />
     <ClInclude Include="src\core\utilities\concurrent\Future.h" />
     <ClInclude Include="src\core\utilities\concurrent\FutureInterface.h" />
     <ClInclude Include="src\core\utilities\concurrent\FutureWatcher.h" />
     <ClInclude Include="src\core\utilities\concurrent\ParallelFor.h" />
     <ClInclude Include="src\core\utilities\concurrent\Task.h" />
     <ClInclude Include="src\core\utilities\concurrent\TaskManager.h" />
-    <ClInclude Include="src\core\utilities\Debugging.h" />
-    <ClInclude Include="src\core\utilities\Exception.h" />
-    <ClInclude Include="src\core\utilities\FloatType.h" />
     <ClInclude Include="src\core\utilities\io\CompressedTextReader.h" />
     <ClInclude Include="src\core\utilities\io\CompressedTextWriter.h" />
     <ClInclude Include="src\core\utilities\io\FileManager.h" />
@@ -743,7 +737,6 @@
     <ClInclude Include="src\core\utilities\linalg\Vector2.h" />
     <ClInclude Include="src\core\utilities\linalg\Vector3.h" />
     <ClInclude Include="src\core\utilities\linalg\Vector4.h" />
-    <ClInclude Include="src\core\utilities\MemoryPool.h" />
     <ClInclude Include="src\core\utilities\mesh\HalfEdgeMesh.h" />
     <ClInclude Include="src\core\utilities\mesh\TriMesh.h" />
     <ClInclude Include="src\core\utilities\units\UnitsManager.h" />

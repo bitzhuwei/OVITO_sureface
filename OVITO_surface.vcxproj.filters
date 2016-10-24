@@ -366,9 +366,6 @@
     <ClCompile Include="src\core\animation\controller\SplineInterpolationControllers.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="src\core\animation\AnimationSettings.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="src\core\dataset\importexport\FileImporter.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -379,15 +376,6 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="src\core\dataset\importexport\FileSourceImporter.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\dataset\DataSet.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\dataset\DataSetContainer.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\dataset\UndoStack.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="src\core\gui\actions\ActionManager.cpp">
@@ -615,99 +603,6 @@
     <ClCompile Include="src\core\reference\RefTargetListener.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="src\core\rendering\noninteractive\DefaultArrowPrimitive.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\rendering\noninteractive\DefaultImagePrimitive.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\rendering\noninteractive\DefaultLinePrimitive.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\rendering\noninteractive\DefaultMeshPrimitive.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\rendering\noninteractive\DefaultParticlePrimitive.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\rendering\noninteractive\DefaultTextPrimitive.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\rendering\noninteractive\NonInteractiveSceneRenderer.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\rendering\standard\StandardSceneRenderer.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\rendering\standard\StandardSceneRendererEditor.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\rendering\viewport\OpenGLImagePrimitive.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\rendering\viewport\OpenGLLinePrimitive.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\rendering\viewport\OpenGLMeshPrimitive.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\rendering\viewport\OpenGLParticlePrimitive.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\rendering\viewport\OpenGLSharedResource.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\rendering\viewport\OpenGLTextPrimitive.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\rendering\viewport\ViewportSceneRenderer.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\scene\objects\camera\CameraObject.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\scene\objects\geometry\TriMeshDisplay.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\scene\objects\geometry\TriMeshObject.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\scene\objects\helpers\TargetObject.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\scene\objects\CompoundObject.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\scene\objects\DataObject.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\scene\objects\DisplayObject.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\scene\pipeline\Modifier.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\scene\pipeline\ModifierApplication.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\scene\pipeline\PipelineFlowState.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\scene\pipeline\PipelineObject.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\scene\ObjectNode.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\scene\SceneNode.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\scene\SceneRoot.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\scene\SelectionSet.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="src\core\utilities\concurrent\Future.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -747,15 +642,6 @@
     <ClCompile Include="src\core\utilities\linalg\AffineDecomposition.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="src\core\utilities\mesh\HalfEdgeMesh.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\utilities\mesh\TriMesh.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\utilities\units\UnitsManager.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="src\core\viewport\input\NavigationModes.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -772,9 +658,6 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="src\core\viewport\overlay\ViewportOverlay.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\viewport\picking\PickingSceneRenderer.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="src\core\viewport\Viewport.cpp">
@@ -1568,12 +1451,6 @@
     <ClInclude Include="src\core\animation\controller\SplineInterpolationControllers.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="src\core\animation\AnimationSettings.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\animation\TimeInterval.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="src\core\dataset\importexport\FileExporter.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -1587,15 +1464,6 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="src\core\dataset\importexport\FileSourceImporter.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\dataset\DataSet.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\dataset\DataSetContainer.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\dataset\UndoStack.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="src\core\gui\actions\ActionManager.h">
@@ -1817,114 +1685,6 @@
     <ClInclude Include="src\core\reference\RefTargetListener.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="src\core\rendering\noninteractive\DefaultArrowPrimitive.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\rendering\noninteractive\DefaultImagePrimitive.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\rendering\noninteractive\DefaultLinePrimitive.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\rendering\noninteractive\DefaultMeshPrimitive.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\rendering\noninteractive\DefaultParticlePrimitive.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\rendering\noninteractive\DefaultTextPrimitive.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\rendering\noninteractive\NonInteractiveSceneRenderer.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\rendering\standard\StandardSceneRenderer.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\rendering\standard\StandardSceneRendererEditor.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\rendering\viewport\OpenGLImagePrimitive.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\rendering\viewport\OpenGLLinePrimitive.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\rendering\viewport\OpenGLMeshPrimitive.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\rendering\viewport\OpenGLParticlePrimitive.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\rendering\viewport\OpenGLSharedResource.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\rendering\viewport\OpenGLTextPrimitive.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\rendering\viewport\OpenGLTexture.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\rendering\viewport\ViewportSceneRenderer.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\scene\objects\camera\AbstractCameraObject.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\scene\objects\camera\CameraObject.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\scene\objects\geometry\TriMeshDisplay.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\scene\objects\geometry\TriMeshObject.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\scene\objects\helpers\TargetObject.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\scene\objects\CompoundObject.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\scene\objects\DataObject.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\scene\objects\DisplayObject.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\scene\objects\VersionedObjectReference.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\scene\objects\WeakVersionedObjectReference.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\scene\pipeline\Modifier.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\scene\pipeline\ModifierApplication.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\scene\pipeline\PipelineFlowState.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\scene\pipeline\PipelineObject.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\scene\pipeline\PipelineStatus.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\scene\ObjectNode.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\scene\SceneNode.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\scene\SceneRoot.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\scene\SelectionSet.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="src\core\utilities\concurrent\Future.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -2027,15 +1787,6 @@
     <ClInclude Include="src\core\utilities\linalg\Vector4.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="src\core\utilities\mesh\HalfEdgeMesh.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\utilities\mesh\TriMesh.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\utilities\units\UnitsManager.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="src\core\viewport\input\NavigationModes.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -2052,9 +1803,6 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="src\core\viewport\overlay\ViewportOverlay.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\viewport\picking\PickingSceneRenderer.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="src\core\viewport\Viewport.h">

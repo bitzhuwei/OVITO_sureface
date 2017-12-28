@@ -304,7 +304,6 @@
     <ClCompile Include="src\core\scene\pipeline\PipelineObject.cpp" />
     <ClCompile Include="src\core\scene\SceneNode.cpp" />
     <ClCompile Include="src\core\scene\SceneRoot.cpp" />
-    <ClCompile Include="src\core\scene\SelectionSet.cpp" />
     <ClCompile Include="src\core\utilities\concurrent\Future.cpp" />
     <ClCompile Include="src\core\utilities\concurrent\TaskManager.cpp" />
     <ClCompile Include="src\core\utilities\Exception.cpp" />
@@ -732,7 +731,6 @@
     <ClInclude Include="src\core\scene\pipeline\PipelineStatus.h" />
     <ClInclude Include="src\core\scene\SceneNode.h" />
     <ClInclude Include="src\core\scene\SceneRoot.h" />
-    <ClInclude Include="src\core\scene\SelectionSet.h" />
     <ClInclude Include="src\core\utilities\BoundedPriorityQueue.h" />
     <ClInclude Include="src\core\utilities\Color.h" />
     <ClInclude Include="src\core\utilities\concurrent\Future.h" />

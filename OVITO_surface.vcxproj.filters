@@ -723,9 +723,6 @@
     <ClCompile Include="src\core\scene\ObjectNode.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="src\core\scene\SceneNode.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="src\core\scene\SceneRoot.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -814,9 +811,6 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="src\core\viewport\ViewportWindow.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\Core.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="src\main\Main.cpp">
@@ -1997,9 +1991,6 @@
     <ClInclude Include="src\core\scene\ObjectNode.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="src\core\scene\SceneNode.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="src\core\scene\SceneRoot.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -2166,12 +2157,6 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="src\core\viewport\ViewportWindow.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\Core.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\ForwardDecl.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="src\plugins\crystalanalysis\data\clusters\Cluster.h">

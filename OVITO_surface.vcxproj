@@ -289,7 +289,6 @@
     <ClCompile Include="src\core\rendering\viewport\OpenGLSharedResource.cpp" />
     <ClCompile Include="src\core\rendering\viewport\OpenGLTextPrimitive.cpp" />
     <ClCompile Include="src\core\rendering\viewport\ViewportSceneRenderer.cpp" />
-    <ClCompile Include="src\core\scene\ObjectNode.cpp" />
     <ClCompile Include="src\core\scene\objects\camera\CameraObject.cpp" />
     <ClCompile Include="src\core\scene\objects\CompoundObject.cpp" />
     <ClCompile Include="src\core\scene\objects\DataObject.cpp" />
@@ -708,7 +707,6 @@
     <ClInclude Include="src\core\rendering\viewport\OpenGLTextPrimitive.h" />
     <ClInclude Include="src\core\rendering\viewport\OpenGLTexture.h" />
     <ClInclude Include="src\core\rendering\viewport\ViewportSceneRenderer.h" />
-    <ClInclude Include="src\core\scene\ObjectNode.h" />
     <ClInclude Include="src\core\scene\objects\camera\AbstractCameraObject.h" />
     <ClInclude Include="src\core\scene\objects\camera\CameraObject.h" />
     <ClInclude Include="src\core\scene\objects\CompoundObject.h" />

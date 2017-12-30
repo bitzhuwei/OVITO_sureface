@@ -720,9 +720,6 @@
     <ClCompile Include="src\core\scene\pipeline\PipelineObject.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="src\core\scene\ObjectNode.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="src\core\utilities\concurrent\Future.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -1983,9 +1980,6 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="src\core\scene\pipeline\PipelineStatus.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\scene\ObjectNode.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="src\core\utilities\concurrent\Future.h">

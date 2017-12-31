@@ -268,7 +268,6 @@
     <ClCompile Include="src\core\reference\RefMaker.cpp" />
     <ClCompile Include="src\core\reference\RefTarget.cpp" />
     <ClCompile Include="src\core\reference\RefTargetListener.cpp" />
-    <ClCompile Include="src\core\rendering\viewport\OpenGLImagePrimitive.cpp" />
     <ClCompile Include="src\core\rendering\viewport\OpenGLLinePrimitive.cpp" />
     <ClCompile Include="src\core\rendering\viewport\OpenGLMeshPrimitive.cpp" />
     <ClCompile Include="src\core\rendering\viewport\OpenGLParticlePrimitive.cpp" />
@@ -651,8 +650,6 @@
     <ClInclude Include="src\core\reference\RefMaker.h" />
     <ClInclude Include="src\core\reference\RefTarget.h" />
     <ClInclude Include="src\core\reference\RefTargetListener.h" />
-    <ClInclude Include="src\core\rendering\viewport\OpenGLBuffer.h" />
-    <ClInclude Include="src\core\rendering\viewport\OpenGLImagePrimitive.h" />
     <ClInclude Include="src\core\rendering\viewport\OpenGLLinePrimitive.h" />
     <ClInclude Include="src\core\rendering\viewport\OpenGLMeshPrimitive.h" />
     <ClInclude Include="src\core\rendering\viewport\OpenGLParticlePrimitive.h" />

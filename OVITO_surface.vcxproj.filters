@@ -687,37 +687,7 @@
     <ClCompile Include="src\core\rendering\SceneRenderer.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="src\core\scene\objects\camera\CameraObject.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\scene\objects\geometry\TriMeshDisplay.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\scene\objects\geometry\TriMeshObject.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\scene\objects\helpers\TargetObject.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\scene\objects\CompoundObject.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\scene\objects\DataObject.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\scene\objects\DisplayObject.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="src\core\scene\pipeline\Modifier.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\scene\pipeline\ModifierApplication.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\scene\pipeline\PipelineFlowState.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\scene\pipeline\PipelineObject.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="src\core\utilities\concurrent\Future.cpp">
@@ -1935,51 +1905,6 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="src\core\rendering\TextPrimitive.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\scene\objects\camera\AbstractCameraObject.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\scene\objects\camera\CameraObject.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\scene\objects\geometry\TriMeshDisplay.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\scene\objects\geometry\TriMeshObject.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\scene\objects\helpers\TargetObject.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\scene\objects\CompoundObject.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\scene\objects\DataObject.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\scene\objects\DisplayObject.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\scene\objects\VersionedObjectReference.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\scene\objects\WeakVersionedObjectReference.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\scene\pipeline\Modifier.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\scene\pipeline\ModifierApplication.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\scene\pipeline\PipelineFlowState.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\scene\pipeline\PipelineObject.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\scene\pipeline\PipelineStatus.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="src\core\utilities\concurrent\Future.h">

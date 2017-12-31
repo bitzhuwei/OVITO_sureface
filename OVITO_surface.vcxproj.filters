@@ -624,9 +624,6 @@
     <ClCompile Include="src\core\reference\RefTargetListener.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="src\core\rendering\noninteractive\DefaultArrowPrimitive.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="src\core\rendering\noninteractive\DefaultImagePrimitive.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -640,15 +637,6 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="src\core\rendering\noninteractive\DefaultTextPrimitive.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\rendering\noninteractive\NonInteractiveSceneRenderer.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\rendering\standard\StandardSceneRenderer.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\rendering\standard\StandardSceneRendererEditor.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="src\core\rendering\viewport\OpenGLArrowPrimitive.cpp">
@@ -673,18 +661,6 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="src\core\rendering\viewport\ViewportSceneRenderer.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\rendering\FrameBuffer.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\rendering\RenderSettings.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\rendering\RenderSettingsEditor.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\rendering\SceneRenderer.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="src\core\utilities\concurrent\Future.cpp">
@@ -1811,9 +1787,6 @@
     <ClInclude Include="src\core\reference\RefTargetListener.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="src\core\rendering\noninteractive\DefaultArrowPrimitive.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="src\core\rendering\noninteractive\DefaultImagePrimitive.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -1827,15 +1800,6 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="src\core\rendering\noninteractive\DefaultTextPrimitive.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\rendering\noninteractive\NonInteractiveSceneRenderer.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\rendering\standard\StandardSceneRenderer.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\rendering\standard\StandardSceneRendererEditor.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="src\core\rendering\viewport\OpenGLArrowPrimitive.h">
@@ -1869,39 +1833,6 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="src\core\rendering\viewport\ViewportSceneRenderer.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\rendering\ArrowPrimitive.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\rendering\FrameBuffer.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\rendering\ImagePrimitive.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\rendering\LinePrimitive.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\rendering\MeshPrimitive.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\rendering\ParticlePrimitive.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\rendering\PrimitiveBase.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\rendering\RenderSettings.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\rendering\RenderSettingsEditor.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\rendering\SceneRenderer.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\rendering\TextPrimitive.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="src\core\utilities\concurrent\Future.h">

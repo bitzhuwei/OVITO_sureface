@@ -24,7 +24,7 @@ public:
 
 		initParticleBuffers(1);
 
-		OVITO_CHECK_OPENGL(shader->bind());
+		(shader->bind());
 
 		// Need to render only the front facing sides of the cubes.
 		glCullFace(GL_BACK);
@@ -48,9 +48,9 @@ public:
 			{-1,  1,  1, 0},
 			{-1, -1,  1, 0},
 		};
-		OVITO_CHECK_OPENGL();
-		OVITO_CHECK_OPENGL(shader->setUniformValueArray("cubeVerts", cubeVerts, 14));
-		OVITO_CHECK_OPENGL();
+		();
+		(shader->setUniformValueArray("cubeVerts", cubeVerts, 14));
+		();
 
 		shader->setUniformValue("projection_matrix", (QMatrix4x4)projParams().projectionMatrix);
 		shader->setUniformValue("inverse_projection_matrix", (QMatrix4x4)projParams().inverseProjectionMatrix);
@@ -68,7 +68,7 @@ public:
 		_colorsBuffer.bindColors(this, shader, 3);
 
 		// By default, render particle in arbitrary order.
-		OVITO_CHECK_OPENGL(glDrawArrays(GL_POINTS, 0, _positionsBuffer.elementCount()));
+		(glDrawArrays(GL_POINTS, 0, _positionsBuffer.elementCount()));
 
 		_positionsBuffer.detachPositions(this, shader);
 		_radiiBuffer.detach(this, shader, "particle_radius");

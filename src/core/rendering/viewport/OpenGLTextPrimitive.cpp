@@ -46,7 +46,7 @@ OpenGLTextPrimitive::OpenGLTextPrimitive(ViewportSceneRenderer* renderer) :
 	_vertexBuffer.setUsagePattern(QOpenGLBuffer::DynamicDraw);
 	if(!_vertexBuffer.bind())
 			throw Exception(QStringLiteral("Failed to bind OpenGL vertex buffer."));
-	OVITO_CHECK_OPENGL(_vertexBuffer.allocate(4 * sizeof(Point2)));
+	(_vertexBuffer.allocate(4 * sizeof(Point2)));
 	_vertexBuffer.release();
 
 	// Create OpenGL texture.
@@ -93,7 +93,7 @@ void OpenGLTextPrimitive::renderWindow(SceneRenderer* renderer, const Point2& po
 
 	// Enable texturing when using compatibility OpenGL. In the core profile, this is enabled by default.
 	if(vpRenderer->isCoreProfile() == false)
-		OVITO_CHECK_OPENGL(glEnable(GL_TEXTURE_2D));
+		(glEnable(GL_TEXTURE_2D));
 
 	// Prepare texture.
 	_texture.bind();
@@ -101,10 +101,10 @@ void OpenGLTextPrimitive::renderWindow(SceneRenderer* renderer, const Point2& po
 	if(_needTextureUpdate) {
 		_needTextureUpdate = false;
 
-		OVITO_CHECK_OPENGL(glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST));
-		OVITO_CHECK_OPENGL(glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST));
-		OVITO_CHECK_OPENGL(glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAX_LOD, 0));
-		OVITO_CHECK_OPENGL(glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAX_LEVEL, 0));
+		(glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_NEAREST));
+		(glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST));
+		(glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAX_LOD, 0));
+		(glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAX_LEVEL, 0));
 
 		// Measure text size.
 		QRect rect;
@@ -135,7 +135,7 @@ void OpenGLTextPrimitive::renderWindow(SceneRenderer* renderer, const Point2& po
 
 		// Upload texture data.
 		QImage textureImage = QGLWidget::convertToGLFormat(_textureImage);
-		OVITO_CHECK_OPENGL(glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, textureImage.width(), textureImage.height(), 0, GL_RGBA, GL_UNSIGNED_BYTE, textureImage.constBits()));
+		(glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, textureImage.width(), textureImage.height(), 0, GL_RGBA, GL_UNSIGNED_BYTE, textureImage.constBits()));
 	}
 
 	// Transform rectangle to normalized device coordinates.
@@ -162,9 +162,9 @@ void OpenGLTextPrimitive::renderWindow(SceneRenderer* renderer, const Point2& po
 
 	bool wasDepthTestEnabled = glIsEnabled(GL_DEPTH_TEST);
 	bool wasBlendEnabled = glIsEnabled(GL_BLEND);
-	OVITO_CHECK_OPENGL(glDisable(GL_DEPTH_TEST));
-	OVITO_CHECK_OPENGL(glEnable(GL_BLEND));
-	OVITO_CHECK_OPENGL(glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA));
+	(glDisable(GL_DEPTH_TEST));
+	(glEnable(GL_BLEND));
+	(glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA));
 
 	if(!_shader->bind())
 		throw Exception(QStringLiteral("Failed to bind OpenGL shader."));
@@ -176,14 +176,14 @@ void OpenGLTextPrimitive::renderWindow(SceneRenderer* renderer, const Point2& po
 
 		// Set up look-up table for texture coordinates.
 		static const QVector2D uvcoords[] = {{0,0}, {1,0}, {0,1}, {1,1}};
-		OVITO_CHECK_OPENGL(_shader->setUniformValueArray("uvcoords", uvcoords, 4));
+		(_shader->setUniformValueArray("uvcoords", uvcoords, 4));
 
-		OVITO_CHECK_OPENGL(_vertexBuffer.write(0, corners, 4 * sizeof(Point2)));
-		OVITO_CHECK_OPENGL(_shader->enableAttributeArray("vertex_pos"));
-		OVITO_CHECK_OPENGL(_shader->setAttributeBuffer("vertex_pos", GL_FLOAT, 0, 2));
+		(_vertexBuffer.write(0, corners, 4 * sizeof(Point2)));
+		(_shader->enableAttributeArray("vertex_pos"));
+		(_shader->setAttributeBuffer("vertex_pos", GL_FLOAT, 0, 2));
 		_vertexBuffer.release();
 
-		OVITO_CHECK_OPENGL(glDrawArrays(GL_TRIANGLE_STRIP, 0, 4));
+		(glDrawArrays(GL_TRIANGLE_STRIP, 0, 4));
 
 		_shader->disableAttributeArray("vertex_pos");
 	}

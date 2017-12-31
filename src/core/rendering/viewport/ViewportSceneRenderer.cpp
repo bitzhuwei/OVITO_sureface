@@ -144,8 +144,8 @@ void ViewportSceneRenderer::beginFrame(TimePoint time, const ViewProjectionParam
 	// Set up a vertex array object (VAO). An active VAO is required during rendering according to the OpenGL core profile.
 	if(glformat().majorVersion() >= 3) {
 		_vertexArrayObject.reset(new QOpenGLVertexArrayObject());
-		OVITO_CHECK_OPENGL(_vertexArrayObject->create());
-		OVITO_CHECK_OPENGL(_vertexArrayObject->bind());
+		(_vertexArrayObject->create());
+		(_vertexArrayObject->bind());
 	}
     OVITO_REPORT_OPENGL_ERRORS();
 
@@ -157,7 +157,7 @@ void ViewportSceneRenderer::beginFrame(TimePoint time, const ViewProjectionParam
 			backgroundColor = Viewport::viewportColor(ViewportSettings::COLOR_VIEWPORT_BKG);
 		else
 			backgroundColor = renderSettings()->backgroundColor();
-		OVITO_CHECK_OPENGL(glClearColor(backgroundColor.r(), backgroundColor.g(), backgroundColor.b(), 1));
+		(glClearColor(backgroundColor.r(), backgroundColor.g(), backgroundColor.b(), 1));
 	}
 
 	// Reset OpenGL state.
@@ -170,7 +170,7 @@ void ViewportSceneRenderer::beginFrame(TimePoint time, const ViewProjectionParam
 void ViewportSceneRenderer::endFrame()
 {
     OVITO_REPORT_OPENGL_ERRORS();
-	OVITO_CHECK_OPENGL(_vertexArrayObject.reset());
+	(_vertexArrayObject.reset());
 	_glcontext = nullptr;
 
 	SceneRenderer::endFrame();
@@ -185,17 +185,17 @@ bool ViewportSceneRenderer::renderFrame(FrameBuffer* frameBuffer, QProgressDialo
 
 	// Set up OpenGL state.
     OVITO_REPORT_OPENGL_ERRORS();
-	OVITO_CHECK_OPENGL(glDisable(GL_STENCIL_TEST));
-	OVITO_CHECK_OPENGL(glEnable(GL_DEPTH_TEST));
-	OVITO_CHECK_OPENGL(glDepthFunc(GL_LESS));
-	OVITO_CHECK_OPENGL(glDepthRange(0, 1));
-	OVITO_CHECK_OPENGL(glDepthMask(GL_TRUE));
-	OVITO_CHECK_OPENGL(glClearDepth(1));
-	OVITO_CHECK_OPENGL(glDisable(GL_SCISSOR_TEST));
+	(glDisable(GL_STENCIL_TEST));
+	(glEnable(GL_DEPTH_TEST));
+	(glDepthFunc(GL_LESS));
+	(glDepthRange(0, 1));
+	(glDepthMask(GL_TRUE));
+	(glClearDepth(1));
+	(glDisable(GL_SCISSOR_TEST));
 	_translucentPass = false;
 
 	// Clear background.
-	OVITO_CHECK_OPENGL(glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT | GL_STENCIL_BUFFER_BIT));
+	(glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT | GL_STENCIL_BUFFER_BIT));
 
 	renderScene();
 
@@ -528,7 +528,7 @@ void ViewportSceneRenderer::render2DPolyline(const Point2* points, int count, co
 	glGetIntegerv(GL_VIEWPORT, vc);
 	QMatrix4x4 tm;
 	tm.ortho(vc[0], vc[0] + vc[2], vc[1] + vc[3], vc[1], -1, 1);
-	OVITO_CHECK_OPENGL(shader->setUniformValue("modelview_projection_matrix", tm));
+	(shader->setUniformValue("modelview_projection_matrix", tm));
 
 	QOpenGLBuffer vertexBuffer;
 	if(glformat().majorVersion() >= 3) {
@@ -537,30 +537,30 @@ void ViewportSceneRenderer::render2DPolyline(const Point2* points, int count, co
 		if(!vertexBuffer.bind())
 				throw Exception(tr("Failed to bind OpenGL vertex buffer."));
 		vertexBuffer.allocate(points, 2 * sizeof(GLfloat) * count);
-		OVITO_CHECK_OPENGL(shader->enableAttributeArray("position"));
-		OVITO_CHECK_OPENGL(shader->setAttributeBuffer("position", GL_FLOAT, 0, 2));
+		(shader->enableAttributeArray("position"));
+		(shader->setAttributeBuffer("position", GL_FLOAT, 0, 2));
 		vertexBuffer.release();
 	}
 	else {
-		OVITO_CHECK_OPENGL(glEnableClientState(GL_VERTEX_ARRAY));
-		OVITO_CHECK_OPENGL(glVertexPointer(2, GL_FLOAT, 0, points));
+		(glEnableClientState(GL_VERTEX_ARRAY));
+		(glVertexPointer(2, GL_FLOAT, 0, points));
 	}
 
 	if(glformat().majorVersion() >= 3) {
-		OVITO_CHECK_OPENGL(shader->disableAttributeArray("color"));
-		OVITO_CHECK_OPENGL(shader->setAttributeValue("color", color.r(), color.g(), color.b(), color.a()));
+		(shader->disableAttributeArray("color"));
+		(shader->setAttributeValue("color", color.r(), color.g(), color.b(), color.a()));
 	}
 	else {
-		OVITO_CHECK_OPENGL(glColor4(color));
+		(glColor4(color));
 	}
 
-	OVITO_CHECK_OPENGL(glDrawArrays(closed ? GL_LINE_LOOP : GL_LINE_STRIP, 0, count));
+	(glDrawArrays(closed ? GL_LINE_LOOP : GL_LINE_STRIP, 0, count));
 
 	if(glformat().majorVersion() >= 3) {
 		shader->disableAttributeArray("position");
 	}
 	else {
-		OVITO_CHECK_OPENGL(glDisableClientState(GL_VERTEX_ARRAY));
+		(glDisableClientState(GL_VERTEX_ARRAY));
 	}
 	shader->release();
 	if(wasDepthTestEnabled) glEnable(GL_DEPTH_TEST);

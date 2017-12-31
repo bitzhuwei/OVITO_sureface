@@ -424,8 +424,8 @@ void ViewportWindow::renderNow()
 	}
 	else {
 		Color backgroundColor = Viewport::viewportColor(ViewportSettings::COLOR_VIEWPORT_BKG);
-		OVITO_CHECK_OPENGL(glClearColor(backgroundColor.r(), backgroundColor.g(), backgroundColor.b(), 1));
-		OVITO_CHECK_OPENGL(glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT | GL_STENCIL_BUFFER_BIT));
+		(glClearColor(backgroundColor.r(), backgroundColor.g(), backgroundColor.b(), 1));
+		(glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT | GL_STENCIL_BUFFER_BIT));
 		_viewport->dataset()->viewportConfig()->updateViewports();
 	}
 	_context->swapBuffers(this);

@@ -96,12 +96,12 @@ void AmbientOcclusionRenderer::beginFrame(TimePoint time, const ViewProjectionPa
 	ViewportSceneRenderer::beginFrame(time, params, vp);
 
 	// Setup GL viewport and background color.
-	OVITO_CHECK_OPENGL(glViewport(0, 0, _resolution.width(), _resolution.height()));
-	OVITO_CHECK_OPENGL(glClearColor(0, 0, 0, 0));
+	(glViewport(0, 0, _resolution.width(), _resolution.height()));
+	(glClearColor(0, 0, 0, 0));
 
 	// Clear buffer.
-	OVITO_CHECK_OPENGL(glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT | GL_STENCIL_BUFFER_BIT));
-	OVITO_CHECK_OPENGL(glEnable(GL_DEPTH_TEST));
+	(glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT | GL_STENCIL_BUFFER_BIT));
+	(glEnable(GL_DEPTH_TEST));
 }
 
 /******************************************************************************

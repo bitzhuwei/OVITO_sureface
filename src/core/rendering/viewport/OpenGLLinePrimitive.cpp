@@ -167,7 +167,7 @@ void OpenGLLinePrimitive::renderLines(ViewportSceneRenderer* renderer)
 	if(!shader->bind())
 		throw Exception(QStringLiteral("Failed to bind OpenGL shader."));
 
-	OVITO_CHECK_OPENGL(shader->setUniformValue("modelview_projection_matrix",
+	(shader->setUniformValue("modelview_projection_matrix",
 			(QMatrix4x4)(renderer->projParams().projectionMatrix * renderer->modelViewTM())));
 
 	_positionsBuffer.bindPositions(renderer, shader);
@@ -179,7 +179,7 @@ void OpenGLLinePrimitive::renderLines(ViewportSceneRenderer* renderer)
 		renderer->activateVertexIDs(shader, _positionsBuffer.elementCount() * _positionsBuffer.verticesPerElement());
 	}
 
-	OVITO_CHECK_OPENGL(glDrawArrays(GL_LINES, 0, _positionsBuffer.elementCount() * _positionsBuffer.verticesPerElement()));
+	(glDrawArrays(GL_LINES, 0, _positionsBuffer.elementCount() * _positionsBuffer.verticesPerElement()));
 
 	_positionsBuffer.detachPositions(renderer, shader);
 	if(!renderer->isPicking()) {
@@ -207,8 +207,8 @@ void OpenGLLinePrimitive::renderThickLines(ViewportSceneRenderer* renderer)
 	if(!shader->bind())
 		throw Exception(QStringLiteral("Failed to bind OpenGL shader."));
 
-	OVITO_CHECK_OPENGL(shader->setUniformValue("modelview_matrix", (QMatrix4x4)renderer->modelViewTM()));
-	OVITO_CHECK_OPENGL(shader->setUniformValue("projection_matrix", (QMatrix4x4)renderer->projParams().projectionMatrix));
+	(shader->setUniformValue("modelview_matrix", (QMatrix4x4)renderer->modelViewTM()));
+	(shader->setUniformValue("projection_matrix", (QMatrix4x4)renderer->projParams().projectionMatrix));
 
 	_positionsBuffer.bindPositions(renderer, shader);
 	if(!renderer->isPicking()) {
@@ -228,11 +228,11 @@ void OpenGLLinePrimitive::renderThickLines(ViewportSceneRenderer* renderer)
 
 	if(_useIndexVBO) {
 		_indicesBuffer.oglBuffer().bind();
-		OVITO_CHECK_OPENGL(glDrawElements(GL_TRIANGLES, _indicesBuffer.elementCount(), GL_UNSIGNED_INT, nullptr));
+		(glDrawElements(GL_TRIANGLES, _indicesBuffer.elementCount(), GL_UNSIGNED_INT, nullptr));
 		_indicesBuffer.oglBuffer().release();
 	}
 	else {
-		OVITO_CHECK_OPENGL(glDrawElements(GL_TRIANGLES, _indicesBufferClient.size(), GL_UNSIGNED_INT, _indicesBufferClient.data()));
+		(glDrawElements(GL_TRIANGLES, _indicesBufferClient.size(), GL_UNSIGNED_INT, _indicesBufferClient.data()));
 	}
 
 	_positionsBuffer.detachPositions(renderer, shader);

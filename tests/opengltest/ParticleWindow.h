@@ -87,7 +87,7 @@ public:
 		for(int mipmapLevel = 0; mipmapLevel < BILLBOARD_TEXTURE_LEVELS; mipmapLevel++) {
 			int resolution = (1 << (BILLBOARD_TEXTURE_LEVELS - mipmapLevel - 1));
 
-			OVITO_CHECK_OPENGL(glTexImage2D(GL_TEXTURE_2D, mipmapLevel, GL_RGBA,
+			(glTexImage2D(GL_TEXTURE_2D, mipmapLevel, GL_RGBA,
 					resolution, resolution, 0, GL_RGBA, GL_UNSIGNED_BYTE, textureImages[mipmapLevel].data()));
 		}
 	}
@@ -100,15 +100,15 @@ public:
 		// Enable texture mapping when using compatibility OpenGL.
 		// In the core profile, this is already enabled by default.
 		if(isCoreProfile() == false)
-			OVITO_CHECK_OPENGL(glEnable(GL_TEXTURE_2D));
+			(glEnable(GL_TEXTURE_2D));
 
 		_billboardTexture.bind();
 
-		OVITO_CHECK_OPENGL(glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR_MIPMAP_NEAREST));
-		OVITO_CHECK_OPENGL(glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST));
+		(glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MIN_FILTER, GL_LINEAR_MIPMAP_NEAREST));
+		(glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAG_FILTER, GL_NEAREST));
 
 		OVITO_STATIC_ASSERT(BILLBOARD_TEXTURE_LEVELS >= 3);
-		OVITO_CHECK_OPENGL(glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAX_LOD, BILLBOARD_TEXTURE_LEVELS - 3));
+		(glTexParameteri(GL_TEXTURE_2D, GL_TEXTURE_MAX_LOD, BILLBOARD_TEXTURE_LEVELS - 3));
 	}
 
 	/******************************************************************************
@@ -118,7 +118,7 @@ public:
 	{
 		// Disable texture mapping again when not using core profile.
 		if(isCoreProfile() == false)
-			OVITO_CHECK_OPENGL(glDisable(GL_TEXTURE_2D));
+			(glDisable(GL_TEXTURE_2D));
 	}
 
 	/// The OpenGL texture that is used for billboard rendering of particles.

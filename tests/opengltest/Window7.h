@@ -24,7 +24,7 @@ public:
 
 		initParticleBuffers(1);
 
-		OVITO_CHECK_OPENGL(shader->bind());
+		(shader->bind());
 
 		glCullFace(GL_BACK);
 		glDisable(GL_CULL_FACE);
@@ -60,7 +60,7 @@ public:
 		activateVertexIDs(shader, _positionsBuffer.elementCount() * _positionsBuffer.verticesPerElement());
 
 		// By default, render particle in arbitrary order.
-		OVITO_CHECK_OPENGL(glDrawArrays(GL_POINTS, 0, _positionsBuffer.elementCount()));
+		(glDrawArrays(GL_POINTS, 0, _positionsBuffer.elementCount()));
 
 		deactivateVertexIDs(shader);
 

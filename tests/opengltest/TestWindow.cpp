@@ -166,24 +166,24 @@ void TestWindow::renderNow()
 	if(glformat().majorVersion() == 3 && glformat().minorVersion() == 1 && _glformat.profile() != QSurfaceFormat::CompatibilityProfile)
 		_isCoreProfile = true;
 
-	OVITO_CHECK_OPENGL(glDisable(GL_STENCIL_TEST));
-	OVITO_CHECK_OPENGL(glEnable(GL_DEPTH_TEST));
-	OVITO_CHECK_OPENGL(glDepthFunc(GL_LESS));
-	OVITO_CHECK_OPENGL(glDepthRange(0, 1));
-	OVITO_CHECK_OPENGL(glDepthMask(GL_TRUE));
-	OVITO_CHECK_OPENGL(glClearDepth(1));
-	OVITO_CHECK_OPENGL(glDisable(GL_SCISSOR_TEST));
+	(glDisable(GL_STENCIL_TEST));
+	(glEnable(GL_DEPTH_TEST));
+	(glDepthFunc(GL_LESS));
+	(glDepthRange(0, 1));
+	(glDepthMask(GL_TRUE));
+	(glClearDepth(1));
+	(glDisable(GL_SCISSOR_TEST));
 
-	OVITO_CHECK_OPENGL(glClearColor(0.2, 0.2, 0.2, 1));
-	OVITO_CHECK_OPENGL(glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT | GL_STENCIL_BUFFER_BIT));
+	(glClearColor(0.2, 0.2, 0.2, 1));
+	(glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT | GL_STENCIL_BUFFER_BIT));
 
 	try {
 		// Set up a vertex array object (VAO). An active VAO is required during rendering according to the OpenGL core profile.
 		QScopedPointer<QOpenGLVertexArrayObject> vertexArrayObject;
 		if(glformat().majorVersion() >= 3) {
 			vertexArrayObject.reset(new QOpenGLVertexArrayObject());
-			OVITO_CHECK_OPENGL(vertexArrayObject->create());
-			OVITO_CHECK_OPENGL(vertexArrayObject->bind());
+			(vertexArrayObject->create());
+			(vertexArrayObject->bind());
 		}
 
 		renderContent();

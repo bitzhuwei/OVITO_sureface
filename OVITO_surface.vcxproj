@@ -652,7 +652,6 @@
     <ClInclude Include="src\core\reference\RefTarget.h" />
     <ClInclude Include="src\core\reference\RefTargetListener.h" />
     <ClInclude Include="src\core\rendering\viewport\OpenGLBuffer.h" />
-    <ClInclude Include="src\core\rendering\viewport\OpenGLHelpers.h" />
     <ClInclude Include="src\core\rendering\viewport\OpenGLImagePrimitive.h" />
     <ClInclude Include="src\core\rendering\viewport\OpenGLLinePrimitive.h" />
     <ClInclude Include="src\core\rendering\viewport\OpenGLMeshPrimitive.h" />

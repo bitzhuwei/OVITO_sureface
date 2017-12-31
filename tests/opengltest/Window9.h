@@ -24,7 +24,7 @@ public:
 
 		initParticleBuffers(1);
 
-		OVITO_CHECK_OPENGL(shader->bind());
+		(shader->bind());
 
 		glCullFace(GL_BACK);
 		glDisable(GL_CULL_FACE);
@@ -45,7 +45,7 @@ public:
 		_colorsBuffer.bindColors(this, shader, 3);
 
 		// By default, render particle in arbitrary order.
-		OVITO_CHECK_OPENGL(glDrawArrays(GL_POINTS, 0, _positionsBuffer.elementCount()));
+		(glDrawArrays(GL_POINTS, 0, _positionsBuffer.elementCount()));
 
 		_positionsBuffer.detachPositions(this, shader);
 		_radiiBuffer.detach(this, shader, "particle_radius");

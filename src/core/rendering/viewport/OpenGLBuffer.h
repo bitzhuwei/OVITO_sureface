@@ -166,14 +166,14 @@ public:
 		OVITO_ASSERT(type != GL_INT || (sizeof(T) == sizeof(GLint)*tupleSize && stride == 0) || sizeof(T) == stride);
 		if(!_buffer.bind())
 			throw Exception(QStringLiteral("Failed to bind OpenGL vertex buffer."));
-		OVITO_CHECK_OPENGL(shader->enableAttributeArray(attributeName));
-		OVITO_CHECK_OPENGL(shader->setAttributeBuffer(attributeName, type, offset, tupleSize, stride));
+		(shader->enableAttributeArray(attributeName));
+		(shader->setAttributeBuffer(attributeName, type, offset, tupleSize, stride));
 		_buffer.release();
 	}
 
 	/// After rendering is done, release the binding of the buffer to a shader attribute.
 	void detach(ViewportSceneRenderer* renderer, QOpenGLShaderProgram* shader, const char* attributeName) {
-		OVITO_CHECK_OPENGL(shader->disableAttributeArray(attributeName));
+		(shader->disableAttributeArray(attributeName));
 	}
 
 	/// Binds this buffer to the vertex position attribute of a vertex shader.
@@ -185,13 +185,13 @@ public:
 			throw Exception(QStringLiteral("Failed to bind OpenGL vertex positions buffer."));
 
 		if(renderer->glformat().majorVersion() >= 3) {
-			OVITO_CHECK_OPENGL(shader->enableAttributeArray("position"));
-			OVITO_CHECK_OPENGL(shader->setAttributeBuffer("position", GL_FLOAT, byteOffset, 3, sizeof(T)));
+			(shader->enableAttributeArray("position"));
+			(shader->setAttributeBuffer("position", GL_FLOAT, byteOffset, 3, sizeof(T)));
 		}
 		else {
 			// Older OpenGL implementations cannot take vertex coordinates through a custom shader attribute.
-			OVITO_CHECK_OPENGL(glEnableClientState(GL_VERTEX_ARRAY));
-			OVITO_CHECK_OPENGL(glVertexPointer(3, GL_FLOAT, sizeof(T), reinterpret_cast<const GLvoid*>(byteOffset)));
+			(glEnableClientState(GL_VERTEX_ARRAY));
+			(glVertexPointer(3, GL_FLOAT, sizeof(T), reinterpret_cast<const GLvoid*>(byteOffset)));
 		}
 		_buffer.release();
 	}
@@ -199,10 +199,10 @@ public:
 	/// After rendering is done, release the binding of the buffer to the vertex position attribute.
 	void detachPositions(ViewportSceneRenderer* renderer, QOpenGLShaderProgram* shader) {
 		if(renderer->glformat().majorVersion() >= 3) {
-			OVITO_CHECK_OPENGL(shader->disableAttributeArray("position"));
+			(shader->disableAttributeArray("position"));
 		}
 		else {
-			OVITO_CHECK_OPENGL(glDisableClientState(GL_VERTEX_ARRAY));
+			(glDisableClientState(GL_VERTEX_ARRAY));
 		}
 	}
 
@@ -216,13 +216,13 @@ public:
 			throw Exception(QStringLiteral("Failed to bind OpenGL vertex color buffer."));
 
 		if(renderer->glformat().majorVersion() >= 3) {
-			OVITO_CHECK_OPENGL(shader->enableAttributeArray("color"));
-			OVITO_CHECK_OPENGL(shader->setAttributeBuffer("color", GL_FLOAT, byteOffset, components, sizeof(T)));
+			(shader->enableAttributeArray("color"));
+			(shader->setAttributeBuffer("color", GL_FLOAT, byteOffset, components, sizeof(T)));
 		}
 		else {
 			// Older OpenGL implementations cannot take vertex colors through a custom shader attribute.
-			OVITO_CHECK_OPENGL(glEnableClientState(GL_COLOR_ARRAY));
-			OVITO_CHECK_OPENGL(glColorPointer(components, GL_FLOAT, sizeof(T), reinterpret_cast<const GLvoid*>(byteOffset)));
+			(glEnableClientState(GL_COLOR_ARRAY));
+			(glColorPointer(components, GL_FLOAT, sizeof(T), reinterpret_cast<const GLvoid*>(byteOffset)));
 		}
 		_buffer.release();
 	}
@@ -230,10 +230,10 @@ public:
 	/// After rendering is done, release the binding of the buffer to the vertex color attribute.
 	void detachColors(ViewportSceneRenderer* renderer, QOpenGLShaderProgram* shader) {
 		if(renderer->glformat().majorVersion() >= 3) {
-			OVITO_CHECK_OPENGL(shader->disableAttributeArray("color"));
+			(shader->disableAttributeArray("color"));
 		}
 		else {
-			OVITO_CHECK_OPENGL(glDisableClientState(GL_COLOR_ARRAY));
+			(glDisableClientState(GL_COLOR_ARRAY));
 		}
 	}
 
@@ -246,13 +246,13 @@ public:
 			throw Exception(QStringLiteral("Failed to bind OpenGL vertex normal buffer."));
 
 		if(renderer->glformat().majorVersion() >= 3) {
-			OVITO_CHECK_OPENGL(shader->enableAttributeArray("normal"));
-			OVITO_CHECK_OPENGL(shader->setAttributeBuffer("normal", GL_FLOAT, byteOffset, 3, sizeof(T)));
+			(shader->enableAttributeArray("normal"));
+			(shader->setAttributeBuffer("normal", GL_FLOAT, byteOffset, 3, sizeof(T)));
 		}
 		else {
 			// Older OpenGL implementations cannot take vertex normals through a custom shader attribute.
-			OVITO_CHECK_OPENGL(glEnableClientState(GL_NORMAL_ARRAY));
-			OVITO_CHECK_OPENGL(glNormalPointer(GL_FLOAT, sizeof(T), reinterpret_cast<const GLvoid*>(byteOffset)));
+			(glEnableClientState(GL_NORMAL_ARRAY));
+			(glNormalPointer(GL_FLOAT, sizeof(T), reinterpret_cast<const GLvoid*>(byteOffset)));
 		}
 		_buffer.release();
 	}
@@ -260,10 +260,10 @@ public:
 	/// After rendering is done, release the binding of the buffer to the vertex normal attribute.
 	void detachNormals(ViewportSceneRenderer* renderer, QOpenGLShaderProgram* shader) {
 		if(renderer->glformat().majorVersion() >= 3) {
-			OVITO_CHECK_OPENGL(shader->disableAttributeArray("normal"));
+			(shader->disableAttributeArray("normal"));
 		}
 		else {
-			OVITO_CHECK_OPENGL(glDisableClientState(GL_NORMAL_ARRAY));
+			(glDisableClientState(GL_NORMAL_ARRAY));
 		}
 	}
 

@@ -803,7 +803,7 @@ void Viewport::renderOrientationIndicator()
 	ViewportSceneRenderer* renderer = dataset()->viewportConfig()->viewportRenderer();
 
 	// Turn off depth-testing.
-	OVITO_CHECK_OPENGL(glDisable(GL_DEPTH_TEST));
+	(glDisable(GL_DEPTH_TEST));
 
 	// Setup projection matrix.
 	ViewProjectionParameters projParams = _projParams;
@@ -863,7 +863,7 @@ void Viewport::renderOrientationIndicator()
 	}
 
 	// Restore old rendering attributes.
-	OVITO_CHECK_OPENGL(glEnable(GL_DEPTH_TEST));
+	(glEnable(GL_DEPTH_TEST));
 }
 
 /******************************************************************************

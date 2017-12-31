@@ -107,7 +107,7 @@ void OpenGLImagePrimitive::renderWindow(SceneRenderer* renderer, const Point2& p
 
 		// Upload texture data.
 		QImage textureImage = QGLWidget::convertToGLFormat(image());
-		OVITO_CHECK_OPENGL(glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, textureImage.width(), textureImage.height(), 0, GL_RGBA, GL_UNSIGNED_BYTE, textureImage.constBits()));
+		(glTexImage2D(GL_TEXTURE_2D, 0, GL_RGBA, textureImage.width(), textureImage.height(), 0, GL_RGBA, GL_UNSIGNED_BYTE, textureImage.constBits()));
 	}
 
 	// Transform rectangle to normalized device coordinates.
@@ -153,7 +153,7 @@ void OpenGLImagePrimitive::renderWindow(SceneRenderer* renderer, const Point2& p
 		_shader->setAttributeBuffer("vertex_pos", GL_FLOAT, 0, 2);
 		_vertexBuffer.release();
 
-		OVITO_CHECK_OPENGL(glDrawArrays(GL_TRIANGLE_STRIP, 0, 4));
+		(glDrawArrays(GL_TRIANGLE_STRIP, 0, 4));
 
 		_shader->disableAttributeArray("vertex_pos");
 	}

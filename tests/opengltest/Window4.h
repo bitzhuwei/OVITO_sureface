@@ -24,7 +24,7 @@ public:
 
 		initParticleBuffers(14);
 
-		OVITO_CHECK_OPENGL(shader->bind());
+		(shader->bind());
 
 		// Need to render only the front facing sides of the cubes.
 		glCullFace(GL_BACK);
@@ -78,7 +78,7 @@ public:
 		}
 		std::fill(_primitiveVertexCounts.begin(), _primitiveVertexCounts.end(), _positionsBuffer.verticesPerElement());
 
-		OVITO_CHECK_OPENGL(glMultiDrawArrays(GL_TRIANGLE_STRIP,
+		(glMultiDrawArrays(GL_TRIANGLE_STRIP,
 				_primitiveStartIndices.data(),
 				_primitiveVertexCounts.data(),
 				_primitiveStartIndices.size()));

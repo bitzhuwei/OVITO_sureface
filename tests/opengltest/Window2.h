@@ -26,7 +26,7 @@ public:
 
 		initParticleBuffers(1);
 
-		OVITO_CHECK_OPENGL(shader->bind());
+		(shader->bind());
 
 		activateBillboardTexture();
 
@@ -45,7 +45,7 @@ public:
 		activateVertexIDs(shader, _positionsBuffer.elementCount() * _positionsBuffer.verticesPerElement());
 
 		// By default, render particles in arbitrary order.
-		OVITO_CHECK_OPENGL(glDrawArrays(GL_POINTS, 0, _positionsBuffer.elementCount()));
+		(glDrawArrays(GL_POINTS, 0, _positionsBuffer.elementCount()));
 
 		deactivateVertexIDs(shader);
 

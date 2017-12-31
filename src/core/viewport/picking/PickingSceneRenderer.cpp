@@ -72,8 +72,8 @@ void PickingSceneRenderer::beginFrame(TimePoint time, const ViewProjectionParame
 	ViewportSceneRenderer::beginFrame(time, params, vp);
 
 	// Setup GL viewport.
-	OVITO_CHECK_OPENGL(glViewport(0, 0, size.width(), size.height()));
-	OVITO_CHECK_OPENGL(glClearColor(0, 0, 0, 0));
+	(glViewport(0, 0, size.width(), size.height()));
+	(glClearColor(0, 0, 0, 0));
 }
 
 /******************************************************************************
@@ -107,24 +107,24 @@ bool PickingSceneRenderer::renderFrame(FrameBuffer* frameBuffer, QProgressDialog
 	_depthBufferBits = glformat().depthBufferSize();
 	if(_depthBufferBits == 16) {
 		_depthBuffer.reset(new quint8[size.width() * size.height() * sizeof(GLushort)]);
-		OVITO_CHECK_OPENGL(glReadPixels(0, 0, size.width(), size.height(), GL_DEPTH_COMPONENT, GL_UNSIGNED_SHORT, _depthBuffer.get()));
+		(glReadPixels(0, 0, size.width(), size.height(), GL_DEPTH_COMPONENT, GL_UNSIGNED_SHORT, _depthBuffer.get()));
 	}
 	else if(_depthBufferBits == 24) {
 		_depthBuffer.reset(new quint8[size.width() * size.height() * sizeof(GLuint)]);
 		while(glGetError() != GL_NO_ERROR);
 		glReadPixels(0, 0, size.width(), size.height(), GL_DEPTH_STENCIL, GL_UNSIGNED_INT_24_8, _depthBuffer.get());
 		if(glGetError() != GL_NO_ERROR) {
-			OVITO_CHECK_OPENGL(glReadPixels(0, 0, size.width(), size.height(), GL_DEPTH_COMPONENT, GL_FLOAT, _depthBuffer.get()));
+			(glReadPixels(0, 0, size.width(), size.height(), GL_DEPTH_COMPONENT, GL_FLOAT, _depthBuffer.get()));
 			_depthBufferBits = 0;
 		}
 	}
 	else if(_depthBufferBits == 32) {
 		_depthBuffer.reset(new quint8[size.width() * size.height() * sizeof(GLuint)]);
-		OVITO_CHECK_OPENGL(glReadPixels(0, 0, size.width(), size.height(), GL_DEPTH_COMPONENT, GL_UNSIGNED_INT, _depthBuffer.get()));
+		(glReadPixels(0, 0, size.width(), size.height(), GL_DEPTH_COMPONENT, GL_UNSIGNED_INT, _depthBuffer.get()));
 	}
 	else {
 		_depthBuffer.reset(new quint8[size.width() * size.height() * sizeof(GLfloat)]);
-		OVITO_CHECK_OPENGL(glReadPixels(0, 0, size.width(), size.height(), GL_DEPTH_COMPONENT, GL_FLOAT, _depthBuffer.get()));
+		(glReadPixels(0, 0, size.width(), size.height(), GL_DEPTH_COMPONENT, GL_FLOAT, _depthBuffer.get()));
 		_depthBufferBits = 0;
 	}
 

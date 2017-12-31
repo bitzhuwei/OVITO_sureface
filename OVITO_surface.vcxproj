@@ -289,7 +289,6 @@
     <ClCompile Include="src\core\rendering\viewport\OpenGLSharedResource.cpp" />
     <ClCompile Include="src\core\rendering\viewport\OpenGLTextPrimitive.cpp" />
     <ClCompile Include="src\core\rendering\viewport\ViewportSceneRenderer.cpp" />
-    <ClCompile Include="src\core\scene\pipeline\Modifier.cpp" />
     <ClCompile Include="src\core\utilities\concurrent\Future.cpp" />
     <ClCompile Include="src\core\utilities\concurrent\TaskManager.cpp" />
     <ClCompile Include="src\core\utilities\Exception.cpp" />

@@ -687,9 +687,6 @@
     <ClCompile Include="src\core\rendering\SceneRenderer.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="src\core\scene\pipeline\Modifier.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="src\core\utilities\concurrent\Future.cpp">
       <Filter>源文件</Filter>
     </ClCompile>

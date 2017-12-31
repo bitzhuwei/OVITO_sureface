@@ -624,21 +624,6 @@
     <ClCompile Include="src\core\reference\RefTargetListener.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="src\core\rendering\noninteractive\DefaultImagePrimitive.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\rendering\noninteractive\DefaultLinePrimitive.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\rendering\noninteractive\DefaultMeshPrimitive.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\rendering\noninteractive\DefaultParticlePrimitive.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\rendering\noninteractive\DefaultTextPrimitive.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="src\core\rendering\viewport\OpenGLArrowPrimitive.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -1785,21 +1770,6 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="src\core\reference\RefTargetListener.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\rendering\noninteractive\DefaultImagePrimitive.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\rendering\noninteractive\DefaultLinePrimitive.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\rendering\noninteractive\DefaultMeshPrimitive.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\rendering\noninteractive\DefaultParticlePrimitive.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\rendering\noninteractive\DefaultTextPrimitive.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="src\core\rendering\viewport\OpenGLArrowPrimitive.h">

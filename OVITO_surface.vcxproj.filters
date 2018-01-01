@@ -624,12 +624,6 @@
     <ClCompile Include="src\core\reference\RefTargetListener.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="src\core\rendering\viewport\OpenGLLinePrimitive.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\rendering\viewport\OpenGLMeshPrimitive.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="src\core\rendering\viewport\OpenGLParticlePrimitive.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -1764,12 +1758,6 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="src\core\reference\RefTargetListener.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\rendering\viewport\OpenGLLinePrimitive.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\rendering\viewport\OpenGLMeshPrimitive.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="src\core\rendering\viewport\OpenGLParticlePrimitive.h">

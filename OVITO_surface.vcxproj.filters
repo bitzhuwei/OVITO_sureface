@@ -1766,9 +1766,6 @@
     <ClInclude Include="src\core\rendering\viewport\OpenGLTexture.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="src\core\rendering\viewport\ViewportSceneRenderer.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="src\core\utilities\concurrent\Future.h">
       <Filter>头文件</Filter>
     </ClInclude>

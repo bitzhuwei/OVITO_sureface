@@ -675,12 +675,6 @@
     <ClCompile Include="src\core\utilities\linalg\AffineDecomposition.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="src\core\utilities\mesh\HalfEdgeMesh.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\utilities\mesh\TriMesh.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="src\core\utilities\units\UnitsManager.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -1875,12 +1869,6 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="src\core\utilities\linalg\Vector4.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\utilities\mesh\HalfEdgeMesh.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\utilities\mesh\TriMesh.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="src\core\utilities\units\UnitsManager.h">

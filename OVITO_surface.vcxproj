@@ -286,8 +286,6 @@
     <ClCompile Include="src\core\utilities\io\SftpJob.cpp" />
     <ClCompile Include="src\core\utilities\io\video\VideoEncoder.cpp" />
     <ClCompile Include="src\core\utilities\linalg\AffineDecomposition.cpp" />
-    <ClCompile Include="src\core\utilities\mesh\HalfEdgeMesh.cpp" />
-    <ClCompile Include="src\core\utilities\mesh\TriMesh.cpp" />
     <ClCompile Include="src\core\utilities\units\UnitsManager.cpp" />
     <ClCompile Include="src\core\viewport\input\NavigationModes.cpp" />
     <ClCompile Include="src\core\viewport\input\ViewportInputManager.cpp" />
@@ -693,8 +691,6 @@
     <ClInclude Include="src\core\utilities\linalg\Vector3.h" />
     <ClInclude Include="src\core\utilities\linalg\Vector4.h" />
     <ClInclude Include="src\core\utilities\MemoryPool.h" />
-    <ClInclude Include="src\core\utilities\mesh\HalfEdgeMesh.h" />
-    <ClInclude Include="src\core\utilities\mesh\TriMesh.h" />
     <ClInclude Include="src\core\utilities\units\UnitsManager.h" />
     <ClInclude Include="src\core\viewport\input\NavigationModes.h" />
     <ClInclude Include="src\core\viewport\input\ViewportInputManager.h" />

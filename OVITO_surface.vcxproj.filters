@@ -348,9 +348,6 @@
     <ClCompile Include="src\core\animation\controller\ConstantControllers.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="src\core\animation\controller\Controller.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="src\core\animation\controller\KeyframeController.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -364,9 +361,6 @@
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="src\core\animation\controller\SplineInterpolationControllers.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\animation\AnimationSettings.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="src\core\dataset\importexport\FileImporter.cpp">
@@ -1463,9 +1457,6 @@
     <ClInclude Include="src\core\animation\controller\ConstantControllers.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="src\core\animation\controller\Controller.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="src\core\animation\controller\KeyframeController.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -1479,12 +1470,6 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="src\core\animation\controller\SplineInterpolationControllers.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\animation\AnimationSettings.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\animation\TimeInterval.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="src\core\dataset\importexport\FileExporter.h">
@@ -2450,7 +2435,6 @@
     <None Include="src\3rdparty\voro++\html\wall_8hh_source.html" />
     <None Include="src\3rdparty\voro++\html\worklist_8hh.html" />
     <None Include="src\3rdparty\voro++\html\worklist_8hh_source.html" />
-    <None Include="src\core\resources\mainwin\command_panel\about_panel.html" />
     <None Include="tests\files\shear.void.dump.bin">
       <Filter>资源文件</Filter>
     </None>

@@ -174,10 +174,8 @@
     <ClCompile Include="src\3rdparty\voro++\src\v_base_wl.cc" />
     <ClCompile Include="src\3rdparty\voro++\src\v_compute.cc" />
     <ClCompile Include="src\3rdparty\voro++\src\wall.cc" />
-    <ClCompile Include="src\core\animation\AnimationSettings.cpp" />
     <ClCompile Include="src\core\animation\controller\AnimationKeys.cpp" />
     <ClCompile Include="src\core\animation\controller\ConstantControllers.cpp" />
-    <ClCompile Include="src\core\animation\controller\Controller.cpp" />
     <ClCompile Include="src\core\animation\controller\KeyframeController.cpp" />
     <ClCompile Include="src\core\animation\controller\LinearInterpolationControllers.cpp" />
     <ClCompile Include="src\core\animation\controller\LookAtController.cpp" />
@@ -547,16 +545,13 @@
     <ClInclude Include="src\3rdparty\voro++\src\v_compute.hh" />
     <ClInclude Include="src\3rdparty\voro++\src\wall.hh" />
     <ClInclude Include="src\3rdparty\voro++\src\worklist.hh" />
-    <ClInclude Include="src\core\animation\AnimationSettings.h" />
     <ClInclude Include="src\core\animation\controller\AnimationKeys.h" />
     <ClInclude Include="src\core\animation\controller\ConstantControllers.h" />
-    <ClInclude Include="src\core\animation\controller\Controller.h" />
     <ClInclude Include="src\core\animation\controller\KeyframeController.h" />
     <ClInclude Include="src\core\animation\controller\LinearInterpolationControllers.h" />
     <ClInclude Include="src\core\animation\controller\LookAtController.h" />
     <ClInclude Include="src\core\animation\controller\PRSTransformationController.h" />
     <ClInclude Include="src\core\animation\controller\SplineInterpolationControllers.h" />
-    <ClInclude Include="src\core\animation\TimeInterval.h" />
     <ClInclude Include="src\core\dataset\DataSet.h" />
     <ClInclude Include="src\core\dataset\DataSetContainer.h" />
     <ClInclude Include="src\core\dataset\importexport\FileExporter.h" />
@@ -974,7 +969,6 @@
     <None Include="src\3rdparty\voro++\html\wall_8hh_source.html" />
     <None Include="src\3rdparty\voro++\html\worklist_8hh.html" />
     <None Include="src\3rdparty\voro++\html\worklist_8hh_source.html" />
-    <None Include="src\core\resources\mainwin\command_panel\about_panel.html" />
     <None Include="tests\files\shear.void.dump.bin" />
   </ItemGroup>
   <ItemGroup>

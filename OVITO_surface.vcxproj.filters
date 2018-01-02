@@ -624,18 +624,6 @@
     <ClCompile Include="src\core\reference\RefTargetListener.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="src\core\rendering\viewport\OpenGLParticlePrimitive.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\rendering\viewport\OpenGLSharedResource.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\rendering\viewport\OpenGLTextPrimitive.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\rendering\viewport\ViewportSceneRenderer.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="src\core\utilities\concurrent\Future.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -1752,18 +1740,6 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="src\core\reference\RefTargetListener.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\rendering\viewport\OpenGLParticlePrimitive.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\rendering\viewport\OpenGLSharedResource.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\rendering\viewport\OpenGLTextPrimitive.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\rendering\viewport\OpenGLTexture.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="src\core\utilities\concurrent\Future.h">

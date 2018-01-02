@@ -268,10 +268,6 @@
     <ClCompile Include="src\core\reference\RefMaker.cpp" />
     <ClCompile Include="src\core\reference\RefTarget.cpp" />
     <ClCompile Include="src\core\reference\RefTargetListener.cpp" />
-    <ClCompile Include="src\core\rendering\viewport\OpenGLParticlePrimitive.cpp" />
-    <ClCompile Include="src\core\rendering\viewport\OpenGLSharedResource.cpp" />
-    <ClCompile Include="src\core\rendering\viewport\OpenGLTextPrimitive.cpp" />
-    <ClCompile Include="src\core\rendering\viewport\ViewportSceneRenderer.cpp" />
     <ClCompile Include="src\core\utilities\concurrent\Future.cpp" />
     <ClCompile Include="src\core\utilities\concurrent\TaskManager.cpp" />
     <ClCompile Include="src\core\utilities\Exception.cpp" />
@@ -646,10 +642,6 @@
     <ClInclude Include="src\core\reference\RefMaker.h" />
     <ClInclude Include="src\core\reference\RefTarget.h" />
     <ClInclude Include="src\core\reference\RefTargetListener.h" />
-    <ClInclude Include="src\core\rendering\viewport\OpenGLParticlePrimitive.h" />
-    <ClInclude Include="src\core\rendering\viewport\OpenGLSharedResource.h" />
-    <ClInclude Include="src\core\rendering\viewport\OpenGLTextPrimitive.h" />
-    <ClInclude Include="src\core\rendering\viewport\OpenGLTexture.h" />
     <ClInclude Include="src\core\utilities\BoundedPriorityQueue.h" />
     <ClInclude Include="src\core\utilities\Color.h" />
     <ClInclude Include="src\core\utilities\concurrent\Future.h" />

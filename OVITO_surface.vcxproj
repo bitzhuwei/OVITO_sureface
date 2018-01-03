@@ -271,8 +271,6 @@
     <ClCompile Include="src\core\viewport\input\ViewportInputManager.cpp" />
     <ClCompile Include="src\core\viewport\input\ViewportInputMode.cpp" />
     <ClCompile Include="src\core\viewport\input\XFormModes.cpp" />
-    <ClCompile Include="src\core\viewport\overlay\CoordinateTripodOverlay.cpp" />
-    <ClCompile Include="src\core\viewport\overlay\ViewportOverlay.cpp" />
     <ClCompile Include="src\core\viewport\ViewportConfiguration.cpp" />
     <ClCompile Include="src\main\Main.cpp" />
     <ClCompile Include="src\plugins\crystalanalysis\data\clusters\Cluster.cpp" />
@@ -648,8 +646,6 @@
     <ClInclude Include="src\core\viewport\input\ViewportInputManager.h" />
     <ClInclude Include="src\core\viewport\input\ViewportInputMode.h" />
     <ClInclude Include="src\core\viewport\input\XFormModes.h" />
-    <ClInclude Include="src\core\viewport\overlay\CoordinateTripodOverlay.h" />
-    <ClInclude Include="src\core\viewport\overlay\ViewportOverlay.h" />
     <ClInclude Include="src\core\viewport\ViewportConfiguration.h" />
     <ClInclude Include="src\plugins\crystalanalysis\CrystalAnalysis.h" />
     <ClInclude Include="src\plugins\crystalanalysis\data\clusters\Cluster.h" />

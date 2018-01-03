@@ -633,12 +633,6 @@
     <ClCompile Include="src\core\viewport\input\XFormModes.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="src\core\viewport\overlay\CoordinateTripodOverlay.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\viewport\overlay\ViewportOverlay.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="src\core\viewport\ViewportConfiguration.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -1758,12 +1752,6 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="src\core\viewport\input\XFormModes.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\viewport\overlay\CoordinateTripodOverlay.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\viewport\overlay\ViewportOverlay.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="src\core\viewport\ViewportConfiguration.h">

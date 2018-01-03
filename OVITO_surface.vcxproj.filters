@@ -621,21 +621,6 @@
     <ClCompile Include="src\core\utilities\Exception.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="src\core\viewport\input\NavigationModes.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\viewport\input\ViewportInputManager.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\viewport\input\ViewportInputMode.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\viewport\input\XFormModes.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\viewport\ViewportConfiguration.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="src\main\Main.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -1740,21 +1725,6 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="src\core\utilities\MemoryPool.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\viewport\input\NavigationModes.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\viewport\input\ViewportInputManager.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\viewport\input\ViewportInputMode.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\viewport\input\XFormModes.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\viewport\ViewportConfiguration.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="src\plugins\crystalanalysis\data\clusters\Cluster.h">

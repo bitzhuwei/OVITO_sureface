@@ -267,11 +267,6 @@
     <ClCompile Include="src\core\utilities\io\video\VideoEncoder.cpp" />
     <ClCompile Include="src\core\utilities\linalg\AffineDecomposition.cpp" />
     <ClCompile Include="src\core\utilities\units\UnitsManager.cpp" />
-    <ClCompile Include="src\core\viewport\input\NavigationModes.cpp" />
-    <ClCompile Include="src\core\viewport\input\ViewportInputManager.cpp" />
-    <ClCompile Include="src\core\viewport\input\ViewportInputMode.cpp" />
-    <ClCompile Include="src\core\viewport\input\XFormModes.cpp" />
-    <ClCompile Include="src\core\viewport\ViewportConfiguration.cpp" />
     <ClCompile Include="src\main\Main.cpp" />
     <ClCompile Include="src\plugins\crystalanalysis\data\clusters\Cluster.cpp" />
     <ClCompile Include="src\plugins\crystalanalysis\data\clusters\ClusterGraph.cpp" />
@@ -642,11 +637,6 @@
     <ClInclude Include="src\core\utilities\linalg\Vector4.h" />
     <ClInclude Include="src\core\utilities\MemoryPool.h" />
     <ClInclude Include="src\core\utilities\units\UnitsManager.h" />
-    <ClInclude Include="src\core\viewport\input\NavigationModes.h" />
-    <ClInclude Include="src\core\viewport\input\ViewportInputManager.h" />
-    <ClInclude Include="src\core\viewport\input\ViewportInputMode.h" />
-    <ClInclude Include="src\core\viewport\input\XFormModes.h" />
-    <ClInclude Include="src\core\viewport\ViewportConfiguration.h" />
     <ClInclude Include="src\plugins\crystalanalysis\CrystalAnalysis.h" />
     <ClInclude Include="src\plugins\crystalanalysis\data\clusters\Cluster.h" />
     <ClInclude Include="src\plugins\crystalanalysis\data\clusters\ClusterGraph.h" />

@@ -576,9 +576,6 @@
     <ClCompile Include="src\core\reference\RefTargetListener.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="src\core\utilities\concurrent\TaskManager.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="src\core\utilities\io\gzdevice\qtiocompressor.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -1599,21 +1596,6 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="src\core\reference\RefTargetListener.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\utilities\concurrent\FutureInterface.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\utilities\concurrent\FutureWatcher.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\utilities\concurrent\ParallelFor.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\utilities\concurrent\Task.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\utilities\concurrent\TaskManager.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="src\core\utilities\io\gzdevice\qtiocompressor.h">

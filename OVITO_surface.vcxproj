@@ -252,7 +252,6 @@
     <ClCompile Include="src\core\reference\RefMaker.cpp" />
     <ClCompile Include="src\core\reference\RefTarget.cpp" />
     <ClCompile Include="src\core\reference\RefTargetListener.cpp" />
-    <ClCompile Include="src\core\utilities\concurrent\TaskManager.cpp" />
     <ClCompile Include="src\core\utilities\Exception.cpp" />
     <ClCompile Include="src\core\utilities\io\CompressedTextReader.cpp" />
     <ClCompile Include="src\core\utilities\io\CompressedTextWriter.cpp" />
@@ -597,11 +596,6 @@
     <ClInclude Include="src\core\reference\RefTargetListener.h" />
     <ClInclude Include="src\core\utilities\BoundedPriorityQueue.h" />
     <ClInclude Include="src\core\utilities\Color.h" />
-    <ClInclude Include="src\core\utilities\concurrent\FutureInterface.h" />
-    <ClInclude Include="src\core\utilities\concurrent\FutureWatcher.h" />
-    <ClInclude Include="src\core\utilities\concurrent\ParallelFor.h" />
-    <ClInclude Include="src\core\utilities\concurrent\Task.h" />
-    <ClInclude Include="src\core\utilities\concurrent\TaskManager.h" />
     <ClInclude Include="src\core\utilities\Debugging.h" />
     <ClInclude Include="src\core\utilities\Exception.h" />
     <ClInclude Include="src\core\utilities\FloatType.h" />

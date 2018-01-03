@@ -642,9 +642,6 @@
     <ClCompile Include="src\core\viewport\picking\PickingSceneRenderer.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="src\core\viewport\Viewport.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="src\core\viewport\ViewportConfiguration.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -1784,13 +1781,7 @@
     <ClInclude Include="src\core\viewport\picking\PickingSceneRenderer.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="src\core\viewport\Viewport.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="src\core\viewport\ViewportConfiguration.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\viewport\ViewportMenu.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="src\core\viewport\ViewportSettings.h">

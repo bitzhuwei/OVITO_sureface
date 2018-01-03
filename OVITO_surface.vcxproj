@@ -274,7 +274,6 @@
     <ClCompile Include="src\core\viewport\overlay\CoordinateTripodOverlay.cpp" />
     <ClCompile Include="src\core\viewport\overlay\ViewportOverlay.cpp" />
     <ClCompile Include="src\core\viewport\picking\PickingSceneRenderer.cpp" />
-    <ClCompile Include="src\core\viewport\Viewport.cpp" />
     <ClCompile Include="src\core\viewport\ViewportConfiguration.cpp" />
     <ClCompile Include="src\core\viewport\ViewportMenu.cpp" />
     <ClCompile Include="src\core\viewport\ViewportSettings.cpp" />
@@ -656,9 +655,7 @@
     <ClInclude Include="src\core\viewport\overlay\CoordinateTripodOverlay.h" />
     <ClInclude Include="src\core\viewport\overlay\ViewportOverlay.h" />
     <ClInclude Include="src\core\viewport\picking\PickingSceneRenderer.h" />
-    <ClInclude Include="src\core\viewport\Viewport.h" />
     <ClInclude Include="src\core\viewport\ViewportConfiguration.h" />
-    <ClInclude Include="src\core\viewport\ViewportMenu.h" />
     <ClInclude Include="src\core\viewport\ViewportSettings.h" />
     <ClInclude Include="src\core\viewport\ViewportWindow.h" />
     <ClInclude Include="src\plugins\crystalanalysis\CrystalAnalysis.h" />

@@ -576,15 +576,6 @@
     <ClCompile Include="src\core\reference\RefTargetListener.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="src\core\utilities\units\UnitsManager.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\utilities\Exception.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\main\Main.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="src\plugins\crystalanalysis\data\clusters\Cluster.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -1565,27 +1556,6 @@
     <ClInclude Include="src\core\reference\RefTargetListener.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="src\core\utilities\units\UnitsManager.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\utilities\BoundedPriorityQueue.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\utilities\Color.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\utilities\Debugging.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\utilities\Exception.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\utilities\FloatType.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\utilities\MemoryPool.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="src\plugins\crystalanalysis\data\clusters\Cluster.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -2140,11 +2110,6 @@
     </None>
     <None Include=".gitattributes" />
     <None Include=".gitignore" />
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="src\main\resources\ovito.rc">
-      <Filter>资源文件</Filter>
-    </ResourceCompile>
   </ItemGroup>
   <ItemGroup>
     <Text Include="CMakeLists.txt" />

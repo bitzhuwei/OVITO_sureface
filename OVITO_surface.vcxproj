@@ -252,9 +252,6 @@
     <ClCompile Include="src\core\reference\RefMaker.cpp" />
     <ClCompile Include="src\core\reference\RefTarget.cpp" />
     <ClCompile Include="src\core\reference\RefTargetListener.cpp" />
-    <ClCompile Include="src\core\utilities\Exception.cpp" />
-    <ClCompile Include="src\core\utilities\units\UnitsManager.cpp" />
-    <ClCompile Include="src\main\Main.cpp" />
     <ClCompile Include="src\plugins\crystalanalysis\data\clusters\Cluster.cpp" />
     <ClCompile Include="src\plugins\crystalanalysis\data\clusters\ClusterGraph.cpp" />
     <ClCompile Include="src\plugins\crystalanalysis\data\dislocations\DislocationDisplay.cpp" />
@@ -583,13 +580,6 @@
     <ClInclude Include="src\core\reference\RefMaker.h" />
     <ClInclude Include="src\core\reference\RefTarget.h" />
     <ClInclude Include="src\core\reference\RefTargetListener.h" />
-    <ClInclude Include="src\core\utilities\BoundedPriorityQueue.h" />
-    <ClInclude Include="src\core\utilities\Color.h" />
-    <ClInclude Include="src\core\utilities\Debugging.h" />
-    <ClInclude Include="src\core\utilities\Exception.h" />
-    <ClInclude Include="src\core\utilities\FloatType.h" />
-    <ClInclude Include="src\core\utilities\MemoryPool.h" />
-    <ClInclude Include="src\core\utilities\units\UnitsManager.h" />
     <ClInclude Include="src\plugins\crystalanalysis\CrystalAnalysis.h" />
     <ClInclude Include="src\plugins\crystalanalysis\data\clusters\Cluster.h" />
     <ClInclude Include="src\plugins\crystalanalysis\data\clusters\ClusterGraph.h" />
@@ -870,9 +860,6 @@
     <None Include="src\3rdparty\voro++\html\worklist_8hh.html" />
     <None Include="src\3rdparty\voro++\html\worklist_8hh_source.html" />
     <None Include="tests\files\shear.void.dump.bin" />
-  </ItemGroup>
-  <ItemGroup>
-    <ResourceCompile Include="src\main\resources\ovito.rc" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="CMakeLists.txt" />

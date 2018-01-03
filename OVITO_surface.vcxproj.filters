@@ -558,24 +558,6 @@
     <ClCompile Include="src\core\plugins\PluginManager.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="src\core\reference\CloneHelper.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\reference\PropertyField.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\reference\PropertyFieldDescriptor.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\reference\RefMaker.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\reference\RefTarget.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\reference\RefTargetListener.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="src\plugins\crystalanalysis\data\clusters\Cluster.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -1530,30 +1512,6 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="src\core\plugins\PluginManager.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\reference\CloneHelper.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\reference\NativePropertyFieldDescriptor.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\reference\PropertyField.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\reference\PropertyFieldDescriptor.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\reference\ReferenceEvent.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\reference\RefMaker.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\reference\RefTarget.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\reference\RefTargetListener.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="src\plugins\crystalanalysis\data\clusters\Cluster.h">

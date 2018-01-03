@@ -246,12 +246,6 @@
     <ClCompile Include="src\core\plugins\Plugin.cpp" />
     <ClCompile Include="src\core\plugins\PluginManager.cpp" />
     <ClCompile Include="src\core\plugins\utility\UtilityApplet.cpp" />
-    <ClCompile Include="src\core\reference\CloneHelper.cpp" />
-    <ClCompile Include="src\core\reference\PropertyField.cpp" />
-    <ClCompile Include="src\core\reference\PropertyFieldDescriptor.cpp" />
-    <ClCompile Include="src\core\reference\RefMaker.cpp" />
-    <ClCompile Include="src\core\reference\RefTarget.cpp" />
-    <ClCompile Include="src\core\reference\RefTargetListener.cpp" />
     <ClCompile Include="src\plugins\crystalanalysis\data\clusters\Cluster.cpp" />
     <ClCompile Include="src\plugins\crystalanalysis\data\clusters\ClusterGraph.cpp" />
     <ClCompile Include="src\plugins\crystalanalysis\data\dislocations\DislocationDisplay.cpp" />
@@ -572,14 +566,6 @@
     <ClInclude Include="src\core\plugins\Plugin.h" />
     <ClInclude Include="src\core\plugins\PluginManager.h" />
     <ClInclude Include="src\core\plugins\utility\UtilityApplet.h" />
-    <ClInclude Include="src\core\reference\CloneHelper.h" />
-    <ClInclude Include="src\core\reference\NativePropertyFieldDescriptor.h" />
-    <ClInclude Include="src\core\reference\PropertyField.h" />
-    <ClInclude Include="src\core\reference\PropertyFieldDescriptor.h" />
-    <ClInclude Include="src\core\reference\ReferenceEvent.h" />
-    <ClInclude Include="src\core\reference\RefMaker.h" />
-    <ClInclude Include="src\core\reference\RefTarget.h" />
-    <ClInclude Include="src\core\reference\RefTargetListener.h" />
     <ClInclude Include="src\plugins\crystalanalysis\CrystalAnalysis.h" />
     <ClInclude Include="src\plugins\crystalanalysis\data\clusters\Cluster.h" />
     <ClInclude Include="src\plugins\crystalanalysis\data\clusters\ClusterGraph.h" />

@@ -639,19 +639,7 @@
     <ClCompile Include="src\core\viewport\overlay\ViewportOverlay.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="src\core\viewport\picking\PickingSceneRenderer.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="src\core\viewport\ViewportConfiguration.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\viewport\ViewportMenu.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\viewport\ViewportSettings.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\viewport\ViewportWindow.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="src\main\Main.cpp">
@@ -1778,16 +1766,7 @@
     <ClInclude Include="src\core\viewport\overlay\ViewportOverlay.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="src\core\viewport\picking\PickingSceneRenderer.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="src\core\viewport\ViewportConfiguration.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\viewport\ViewportSettings.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\viewport\ViewportWindow.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="src\plugins\crystalanalysis\data\clusters\Cluster.h">

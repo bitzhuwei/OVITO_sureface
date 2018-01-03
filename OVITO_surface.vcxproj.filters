@@ -342,27 +342,6 @@
     <ClCompile Include="src\3rdparty\voro++\src\wall.cc">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="src\core\dataset\importexport\FileImporter.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\dataset\importexport\FileSource.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\dataset\importexport\FileSourceEditor.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\dataset\importexport\FileSourceImporter.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\dataset\DataSet.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\dataset\DataSetContainer.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="src\core\dataset\UndoStack.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="src\core\gui\actions\ActionManager.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -1428,30 +1407,6 @@
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="src\3rdparty\voro++\src\worklist.hh">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\dataset\importexport\FileExporter.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\dataset\importexport\FileImporter.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\dataset\importexport\FileSource.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\dataset\importexport\FileSourceEditor.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\dataset\importexport\FileSourceImporter.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\dataset\DataSet.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\dataset\DataSetContainer.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="src\core\dataset\UndoStack.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="src\core\gui\actions\ActionManager.h">

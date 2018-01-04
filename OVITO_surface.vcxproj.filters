@@ -15,9 +15,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="examples\plugins\random_color\RandomColorModifier.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="src\3rdparty\botan\botan\botan.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
@@ -342,17 +339,8 @@
     <ClCompile Include="src\3rdparty\voro++\src\wall.cc">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="tests\opengltest\Main.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="tests\opengltest\TestWindow.cpp">
-      <Filter>源文件</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="examples\plugins\random_color\RandomColorModifier.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
     <ClInclude Include="src\3rdparty\botan\botan\botan.h">
       <Filter>头文件</Filter>
     </ClInclude>
@@ -695,48 +683,6 @@
     <ClInclude Include="src\3rdparty\voro++\src\worklist.hh">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="tests\opengltest\OpenGLBuffer.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="tests\opengltest\ParticleWindow.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="tests\opengltest\TestWindow.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="tests\opengltest\Window1.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="tests\opengltest\Window2.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="tests\opengltest\Window3.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="tests\opengltest\Window4.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="tests\opengltest\Window5.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="tests\opengltest\Window6.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="tests\opengltest\Window7.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="tests\opengltest\Window8.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="tests\opengltest\Window9.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="tests\opengltest\Window10.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="tests\opengltest\Window11.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="src\3rdparty\voro++\html\annotated.html" />
@@ -878,9 +824,6 @@
     <None Include="src\3rdparty\voro++\html\wall_8hh_source.html" />
     <None Include="src\3rdparty\voro++\html\worklist_8hh.html" />
     <None Include="src\3rdparty\voro++\html\worklist_8hh_source.html" />
-    <None Include="tests\files\shear.void.dump.bin">
-      <Filter>资源文件</Filter>
-    </None>
     <None Include=".gitattributes" />
     <None Include=".gitignore" />
   </ItemGroup>

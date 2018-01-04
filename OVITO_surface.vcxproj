@@ -65,7 +65,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="examples\plugins\random_color\RandomColorModifier.cpp" />
     <ClCompile Include="src\3rdparty\botan\botan\botan.cpp" />
     <ClCompile Include="src\3rdparty\muparser\muParser.cpp" />
     <ClCompile Include="src\3rdparty\muparser\muParserBase.cpp" />
@@ -174,11 +173,8 @@
     <ClCompile Include="src\3rdparty\voro++\src\v_base_wl.cc" />
     <ClCompile Include="src\3rdparty\voro++\src\v_compute.cc" />
     <ClCompile Include="src\3rdparty\voro++\src\wall.cc" />
-    <ClCompile Include="tests\opengltest\Main.cpp" />
-    <ClCompile Include="tests\opengltest\TestWindow.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="examples\plugins\random_color\RandomColorModifier.h" />
     <ClInclude Include="src\3rdparty\botan\botan\botan.h" />
     <ClInclude Include="src\3rdparty\botan\botan\cbc.h" />
     <ClInclude Include="src\3rdparty\botan\botan\der_enc.h" />
@@ -293,20 +289,6 @@
     <ClInclude Include="src\3rdparty\voro++\src\v_compute.hh" />
     <ClInclude Include="src\3rdparty\voro++\src\wall.hh" />
     <ClInclude Include="src\3rdparty\voro++\src\worklist.hh" />
-    <ClInclude Include="tests\opengltest\OpenGLBuffer.h" />
-    <ClInclude Include="tests\opengltest\ParticleWindow.h" />
-    <ClInclude Include="tests\opengltest\TestWindow.h" />
-    <ClInclude Include="tests\opengltest\Window1.h" />
-    <ClInclude Include="tests\opengltest\Window10.h" />
-    <ClInclude Include="tests\opengltest\Window11.h" />
-    <ClInclude Include="tests\opengltest\Window2.h" />
-    <ClInclude Include="tests\opengltest\Window3.h" />
-    <ClInclude Include="tests\opengltest\Window4.h" />
-    <ClInclude Include="tests\opengltest\Window5.h" />
-    <ClInclude Include="tests\opengltest\Window6.h" />
-    <ClInclude Include="tests\opengltest\Window7.h" />
-    <ClInclude Include="tests\opengltest\Window8.h" />
-    <ClInclude Include="tests\opengltest\Window9.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitattributes" />
@@ -450,7 +432,6 @@
     <None Include="src\3rdparty\voro++\html\wall_8hh_source.html" />
     <None Include="src\3rdparty\voro++\html\worklist_8hh.html" />
     <None Include="src\3rdparty\voro++\html\worklist_8hh_source.html" />
-    <None Include="tests\files\shear.void.dump.bin" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="CMakeLists.txt" />
